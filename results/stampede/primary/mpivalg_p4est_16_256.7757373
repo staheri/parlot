@@ -1,0 +1,1560 @@
+==56190== Callgrind, a call-graph generating cache profiler
+==56190== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56190== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56190== Command: p4est_mesh unit 9
+==56190== 
+==56190== For interactive control, run 'callgrind_control -h'.
+==56196== Callgrind, a call-graph generating cache profiler
+==56196== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56196== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56196== Command: p4est_mesh unit 9
+==56196== 
+==56191== Callgrind, a call-graph generating cache profiler
+==56186== Callgrind, a call-graph generating cache profiler
+==56189== Callgrind, a call-graph generating cache profiler
+==56189== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56186== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56189== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56186== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56189== Command: p4est_mesh unit 9
+==56186== Command: p4est_mesh unit 9
+==56189== 
+==56186== 
+==56191== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56191== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56188== Callgrind, a call-graph generating cache profiler
+==56191== Command: p4est_mesh unit 9
+==56188== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56183== Callgrind, a call-graph generating cache profiler
+==56191== 
+==56188== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56183== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56188== Command: p4est_mesh unit 9
+==56185== Callgrind, a call-graph generating cache profiler
+==56188== 
+==56185== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56183== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56185== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56185== Command: p4est_mesh unit 9
+==56192== Callgrind, a call-graph generating cache profiler
+==56193== Callgrind, a call-graph generating cache profiler
+==56187== Callgrind, a call-graph generating cache profiler
+==56183== Command: p4est_mesh unit 9
+==56182== Callgrind, a call-graph generating cache profiler
+==56184== Callgrind, a call-graph generating cache profiler
+==56193== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56192== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56182== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56184== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56192== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56182== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56184== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56193== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56192== Command: p4est_mesh unit 9
+==56194== Callgrind, a call-graph generating cache profiler
+==56182== Command: p4est_mesh unit 9
+==56184== Command: p4est_mesh unit 9
+==56193== Command: p4est_mesh unit 9
+==56192== 
+==56194== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56182== 
+==56184== 
+==56193== 
+==56194== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56195== Callgrind, a call-graph generating cache profiler
+==56194== Command: p4est_mesh unit 9
+==56195== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56194== 
+==56195== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56195== Command: p4est_mesh unit 9
+==56195== 
+==56187== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56187== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56183== 
+==56197== Callgrind, a call-graph generating cache profiler
+==56187== Command: p4est_mesh unit 9
+==56197== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==56187== 
+==56197== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==56185== 
+==56197== Command: p4est_mesh unit 9
+==56197== 
+==56196== For interactive control, run 'callgrind_control -h'.
+==56189== For interactive control, run 'callgrind_control -h'.
+==56186== For interactive control, run 'callgrind_control -h'.
+==56188== For interactive control, run 'callgrind_control -h'.
+==56191== For interactive control, run 'callgrind_control -h'.
+==56192== For interactive control, run 'callgrind_control -h'.
+==56182== For interactive control, run 'callgrind_control -h'.
+==56184== For interactive control, run 'callgrind_control -h'.
+==56193== For interactive control, run 'callgrind_control -h'.
+==56194== For interactive control, run 'callgrind_control -h'.
+==56195== For interactive control, run 'callgrind_control -h'.
+==56183== For interactive control, run 'callgrind_control -h'.
+==56187== For interactive control, run 'callgrind_control -h'.
+==56185== For interactive control, run 'callgrind_control -h'.
+==56197== For interactive control, run 'callgrind_control -h'.
+==9266== Callgrind, a call-graph generating cache profiler
+==9271== Callgrind, a call-graph generating cache profiler
+==9274== Callgrind, a call-graph generating cache profiler
+==9270== Callgrind, a call-graph generating cache profiler
+==9263== Callgrind, a call-graph generating cache profiler
+==9272== Callgrind, a call-graph generating cache profiler
+==9269== Callgrind, a call-graph generating cache profiler
+==9262== Callgrind, a call-graph generating cache profiler
+==9264== Callgrind, a call-graph generating cache profiler
+==9260== Callgrind, a call-graph generating cache profiler
+==9265== Callgrind, a call-graph generating cache profiler
+==9267== Callgrind, a call-graph generating cache profiler
+==9273== Callgrind, a call-graph generating cache profiler
+==9261== Callgrind, a call-graph generating cache profiler
+==9268== Callgrind, a call-graph generating cache profiler
+==9259== Callgrind, a call-graph generating cache profiler
+==9261== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9259== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9265== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9269== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9260== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9262== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9271== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9268== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9264== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9270== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9272== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9274== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9263== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9267== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9273== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9266== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==9267== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9273== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9271== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9272== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9260== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9270== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9274== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9264== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9269== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9263== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9261== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9259== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9266== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9268== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9262== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9265== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==9262== Command: p4est_mesh unit 9
+==9273== Command: p4est_mesh unit 9
+==9266== Command: p4est_mesh unit 9
+==9261== Command: p4est_mesh unit 9
+==9268== Command: p4est_mesh unit 9
+==9271== Command: p4est_mesh unit 9
+==9263== Command: p4est_mesh unit 9
+==9269== Command: p4est_mesh unit 9
+==9267== Command: p4est_mesh unit 9
+==9274== Command: p4est_mesh unit 9
+==9259== Command: p4est_mesh unit 9
+==9270== Command: p4est_mesh unit 9
+==9264== Command: p4est_mesh unit 9
+==9265== Command: p4est_mesh unit 9
+==9272== Command: p4est_mesh unit 9
+==9260== Command: p4est_mesh unit 9
+==9260== 
+==9265== 
+==9268== 
+==9266== 
+==9262== 
+==9270== 
+==9264== 
+==9271== 
+==9267== 
+==9263== 
+==9269== 
+==9259== 
+==9273== 
+==9272== 
+==9261== 
+==9274== 
+==9273== For interactive control, run 'callgrind_control -h'.
+==9260== For interactive control, run 'callgrind_control -h'.
+==9263== For interactive control, run 'callgrind_control -h'.
+==9264== For interactive control, run 'callgrind_control -h'.
+==9262== For interactive control, run 'callgrind_control -h'.
+==9270== For interactive control, run 'callgrind_control -h'.
+==9268== For interactive control, run 'callgrind_control -h'.
+==9271== For interactive control, run 'callgrind_control -h'.
+==9265== For interactive control, run 'callgrind_control -h'.
+==9272== For interactive control, run 'callgrind_control -h'.
+==9261== For interactive control, run 'callgrind_control -h'.
+==9269== For interactive control, run 'callgrind_control -h'.
+==9267== For interactive control, run 'callgrind_control -h'.
+==9266== For interactive control, run 'callgrind_control -h'.
+==9259== For interactive control, run 'callgrind_control -h'.
+==9274== For interactive control, run 'callgrind_control -h'.
+==115159== Callgrind, a call-graph generating cache profiler
+==115160== Callgrind, a call-graph generating cache profiler
+==115159== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115160== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115160== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115159== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115160== Command: p4est_mesh unit 9
+==115159== Command: p4est_mesh unit 9
+==115160== 
+==115159== 
+==115160== For interactive control, run 'callgrind_control -h'.
+==115159== For interactive control, run 'callgrind_control -h'.
+==115145== Callgrind, a call-graph generating cache profiler
+==115145== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115145== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115145== Command: p4est_mesh unit 9
+==115145== 
+==115153== Callgrind, a call-graph generating cache profiler
+==115157== Callgrind, a call-graph generating cache profiler
+==115152== Callgrind, a call-graph generating cache profiler
+==115153== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115157== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115152== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115152== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115153== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115152== Command: p4est_mesh unit 9
+==115153== Command: p4est_mesh unit 9
+==115153== 
+==115152== 
+==115157== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115157== Command: p4est_mesh unit 9
+==115157== 
+==115149== Callgrind, a call-graph generating cache profiler
+==115149== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115148== Callgrind, a call-graph generating cache profiler
+==115148== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115149== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115158== Callgrind, a call-graph generating cache profiler
+==115154== Callgrind, a call-graph generating cache profiler
+==115149== Command: p4est_mesh unit 9
+==115147== Callgrind, a call-graph generating cache profiler
+==115148== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115158== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115149== 
+==115154== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115151== Callgrind, a call-graph generating cache profiler
+==115154== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115151== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115147== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115158== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115148== Command: p4est_mesh unit 9
+==115154== Command: p4est_mesh unit 9
+==115158== Command: p4est_mesh unit 9
+==115151== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115146== Callgrind, a call-graph generating cache profiler
+==115156== Callgrind, a call-graph generating cache profiler
+==115147== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115158== 
+==115146== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115151== Command: p4est_mesh unit 9
+==115156== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115150== Callgrind, a call-graph generating cache profiler
+==115148== 
+==115154== 
+==115151== 
+==115150== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115147== Command: p4est_mesh unit 9
+==115156== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115155== Callgrind, a call-graph generating cache profiler
+==115146== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115156== Command: p4est_mesh unit 9
+==115150== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115146== Command: p4est_mesh unit 9
+==115147== 
+==115155== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==115156== 
+==115150== Command: p4est_mesh unit 9
+==115150== 
+==115146== 
+==115155== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==115155== Command: p4est_mesh unit 9
+==115155== 
+==115145== For interactive control, run 'callgrind_control -h'.
+==115149== For interactive control, run 'callgrind_control -h'.
+==115154== For interactive control, run 'callgrind_control -h'.
+==115156== For interactive control, run 'callgrind_control -h'.
+==115153== For interactive control, run 'callgrind_control -h'.
+==115152== For interactive control, run 'callgrind_control -h'.
+==115157== For interactive control, run 'callgrind_control -h'.
+==115148== For interactive control, run 'callgrind_control -h'.
+==115158== For interactive control, run 'callgrind_control -h'.
+==115151== For interactive control, run 'callgrind_control -h'.
+==115147== For interactive control, run 'callgrind_control -h'.
+==115146== For interactive control, run 'callgrind_control -h'.
+==115150== For interactive control, run 'callgrind_control -h'.
+==115155== For interactive control, run 'callgrind_control -h'.
+==100324== Callgrind, a call-graph generating cache profiler
+==100317== Callgrind, a call-graph generating cache profiler
+==100319== Callgrind, a call-graph generating cache profiler
+==100320== Callgrind, a call-graph generating cache profiler
+==100316== Callgrind, a call-graph generating cache profiler
+==100310== Callgrind, a call-graph generating cache profiler
+==100322== Callgrind, a call-graph generating cache profiler
+==100315== Callgrind, a call-graph generating cache profiler
+==100313== Callgrind, a call-graph generating cache profiler
+==100325== Callgrind, a call-graph generating cache profiler
+==100318== Callgrind, a call-graph generating cache profiler
+==100311== Callgrind, a call-graph generating cache profiler
+==100314== Callgrind, a call-graph generating cache profiler
+==100321== Callgrind, a call-graph generating cache profiler
+==100312== Callgrind, a call-graph generating cache profiler
+==100324== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100320== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100323== Callgrind, a call-graph generating cache profiler
+==100318== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100316== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100322== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100323== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100312== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100313== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100319== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100314== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100315== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100325== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100310== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100311== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100317== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100321== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==100314== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100319== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100311== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100313== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100325== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100317== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100312== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100316== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100315== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100310== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100321== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100322== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100320== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100318== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100323== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100324== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100318== Command: p4est_mesh unit 9
+==100323== Command: p4est_mesh unit 9
+==100320== Command: p4est_mesh unit 9
+==100317== Command: p4est_mesh unit 9
+==100321== Command: p4est_mesh unit 9
+==100310== Command: p4est_mesh unit 9
+==100316== Command: p4est_mesh unit 9
+==100325== Command: p4est_mesh unit 9
+==100315== Command: p4est_mesh unit 9
+==100314== Command: p4est_mesh unit 9
+==100313== Command: p4est_mesh unit 9
+==100319== Command: p4est_mesh unit 9
+==100312== Command: p4est_mesh unit 9
+==100311== Command: p4est_mesh unit 9
+==100322== Command: p4est_mesh unit 9
+==100324== Command: p4est_mesh unit 9
+==100315== 
+==100317== 
+==100324== 
+==100311== 
+==100314== 
+==100323== 
+==100316== 
+==100310== 
+==100322== 
+==100319== 
+==100312== 
+==100313== 
+==100325== 
+==100320== 
+==100318== 
+==100321== 
+==100311== For interactive control, run 'callgrind_control -h'.
+==100321== For interactive control, run 'callgrind_control -h'.
+==100317== For interactive control, run 'callgrind_control -h'.
+==100312== For interactive control, run 'callgrind_control -h'.
+==100319== For interactive control, run 'callgrind_control -h'.
+==100315== For interactive control, run 'callgrind_control -h'.
+==100314== For interactive control, run 'callgrind_control -h'.
+==100313== For interactive control, run 'callgrind_control -h'.
+==100316== For interactive control, run 'callgrind_control -h'.
+==100324== For interactive control, run 'callgrind_control -h'.
+==100310== For interactive control, run 'callgrind_control -h'.
+==20387== Callgrind, a call-graph generating cache profiler
+==20391== Callgrind, a call-graph generating cache profiler
+==20397== Callgrind, a call-graph generating cache profiler
+==20394== Callgrind, a call-graph generating cache profiler
+==20396== Callgrind, a call-graph generating cache profiler
+==20384== Callgrind, a call-graph generating cache profiler
+==20386== Callgrind, a call-graph generating cache profiler
+==20390== Callgrind, a call-graph generating cache profiler
+==20392== Callgrind, a call-graph generating cache profiler
+==20388== Callgrind, a call-graph generating cache profiler
+==20389== Callgrind, a call-graph generating cache profiler
+==20398== Callgrind, a call-graph generating cache profiler
+==20398== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20389== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20392== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20396== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20384== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20387== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20397== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20391== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20390== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20388== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20394== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20386== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20399== Callgrind, a call-graph generating cache profiler
+==20399== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20393== Callgrind, a call-graph generating cache profiler
+==20397== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20390== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20396== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20387== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20391== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20386== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20399== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20388== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20393== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20385== Callgrind, a call-graph generating cache profiler
+==20394== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20392== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20398== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20385== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20393== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20384== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20389== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20385== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20395== Callgrind, a call-graph generating cache profiler
+==20395== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==20395== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==100318== For interactive control, run 'callgrind_control -h'.
+==20389== Command: p4est_mesh unit 9
+==20396== Command: p4est_mesh unit 9
+==20398== Command: p4est_mesh unit 9
+==20394== Command: p4est_mesh unit 9
+==20385== Command: p4est_mesh unit 9
+==20399== Command: p4est_mesh unit 9
+==20388== Command: p4est_mesh unit 9
+==20384== Command: p4est_mesh unit 9
+==20395== Command: p4est_mesh unit 9
+==20392== Command: p4est_mesh unit 9
+==20393== Command: p4est_mesh unit 9
+==20386== Command: p4est_mesh unit 9
+==20390== Command: p4est_mesh unit 9
+==20391== Command: p4est_mesh unit 9
+==20397== Command: p4est_mesh unit 9
+==20387== Command: p4est_mesh unit 9
+==20392== 
+==20384== 
+==20389== 
+==20387== 
+==20394== 
+==20395== 
+==20396== 
+==20398== 
+==20399== 
+==20397== 
+==20393== 
+==20386== 
+==20388== 
+==20390== 
+==20385== 
+==20391== 
+==100322== For interactive control, run 'callgrind_control -h'.
+==100323== For interactive control, run 'callgrind_control -h'.
+==100320== For interactive control, run 'callgrind_control -h'.
+==100325== For interactive control, run 'callgrind_control -h'.
+==20398== For interactive control, run 'callgrind_control -h'.
+==20388== For interactive control, run 'callgrind_control -h'.
+==20399== For interactive control, run 'callgrind_control -h'.
+==20393== For interactive control, run 'callgrind_control -h'.
+==20389== For interactive control, run 'callgrind_control -h'.
+==4446== Callgrind, a call-graph generating cache profiler
+==4446== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4446== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==20395== For interactive control, run 'callgrind_control -h'.
+==4446== Command: p4est_mesh unit 9
+==4446== 
+==20390== For interactive control, run 'callgrind_control -h'.
+==20387== For interactive control, run 'callgrind_control -h'.
+==20392== For interactive control, run 'callgrind_control -h'.
+==20384== For interactive control, run 'callgrind_control -h'.
+==20391== For interactive control, run 'callgrind_control -h'.
+==20386== For interactive control, run 'callgrind_control -h'.
+==20397== For interactive control, run 'callgrind_control -h'.
+==20396== For interactive control, run 'callgrind_control -h'.
+==20385== For interactive control, run 'callgrind_control -h'.
+==20394== For interactive control, run 'callgrind_control -h'.
+==4440== Callgrind, a call-graph generating cache profiler
+==4440== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4440== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4440== Command: p4est_mesh unit 9
+==4440== 
+==4441== Callgrind, a call-graph generating cache profiler
+==4441== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4441== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4433== Callgrind, a call-graph generating cache profiler
+==4434== Callgrind, a call-graph generating cache profiler
+==4441== Command: p4est_mesh unit 9
+==4433== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4441== 
+==4442== Callgrind, a call-graph generating cache profiler
+==4434== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4443== Callgrind, a call-graph generating cache profiler
+==4442== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4433== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4434== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4445== Callgrind, a call-graph generating cache profiler
+==4443== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4442== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4433== Command: p4est_mesh unit 9
+==4434== Command: p4est_mesh unit 9
+==4434== 
+==4433== 
+==4443== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4445== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4442== Command: p4est_mesh unit 9
+==4443== Command: p4est_mesh unit 9
+==4443== 
+==4445== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4445== Command: p4est_mesh unit 9
+==4445== 
+==4442== 
+==4432== Callgrind, a call-graph generating cache profiler
+==4432== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4432== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4432== Command: p4est_mesh unit 9
+==4432== 
+==4437== Callgrind, a call-graph generating cache profiler
+==4439== Callgrind, a call-graph generating cache profiler
+==4439== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4437== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4444== Callgrind, a call-graph generating cache profiler
+==4439== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4435== Callgrind, a call-graph generating cache profiler
+==4438== Callgrind, a call-graph generating cache profiler
+==4437== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4431== Callgrind, a call-graph generating cache profiler
+==4437== Command: p4est_mesh unit 9
+==4436== Callgrind, a call-graph generating cache profiler
+==4431== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4438== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4437== 
+==4439== Command: p4est_mesh unit 9
+==4444== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4435== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4436== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==4431== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4435== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4436== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4439== 
+==4438== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4444== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4436== Command: p4est_mesh unit 9
+==4435== Command: p4est_mesh unit 9
+==4431== Command: p4est_mesh unit 9
+==4444== Command: p4est_mesh unit 9
+==4436== 
+==4431== 
+==4444== 
+==4435== 
+==4438== Command: p4est_mesh unit 9
+==4438== 
+==70543== Callgrind, a call-graph generating cache profiler
+==70537== Callgrind, a call-graph generating cache profiler
+==70547== Callgrind, a call-graph generating cache profiler
+==70541== Callgrind, a call-graph generating cache profiler
+==70548== Callgrind, a call-graph generating cache profiler
+==70551== Callgrind, a call-graph generating cache profiler
+==70552== Callgrind, a call-graph generating cache profiler
+==70546== Callgrind, a call-graph generating cache profiler
+==70545== Callgrind, a call-graph generating cache profiler
+==70540== Callgrind, a call-graph generating cache profiler
+==70549== Callgrind, a call-graph generating cache profiler
+==70544== Callgrind, a call-graph generating cache profiler
+==70539== Callgrind, a call-graph generating cache profiler
+==70542== Callgrind, a call-graph generating cache profiler
+==70550== Callgrind, a call-graph generating cache profiler
+==70538== Callgrind, a call-graph generating cache profiler
+==70550== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70544== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70539== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70549== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70540== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70542== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70538== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70551== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70543== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70547== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70541== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70548== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70546== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70545== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70537== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70552== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70552== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70543== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70542== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70545== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70549== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70551== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70538== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70540== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70537== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70547== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70544== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70546== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70548== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70539== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70550== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70541== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==70549== Command: p4est_mesh unit 9
+==70547== Command: p4est_mesh unit 9
+==70537== Command: p4est_mesh unit 9
+==70546== Command: p4est_mesh unit 9
+==70542== Command: p4est_mesh unit 9
+==70550== Command: p4est_mesh unit 9
+==70543== Command: p4est_mesh unit 9
+==70548== Command: p4est_mesh unit 9
+==70538== Command: p4est_mesh unit 9
+==70544== Command: p4est_mesh unit 9
+==70540== Command: p4est_mesh unit 9
+==70545== Command: p4est_mesh unit 9
+==70539== Command: p4est_mesh unit 9
+==70551== Command: p4est_mesh unit 9
+==70552== Command: p4est_mesh unit 9
+==70541== Command: p4est_mesh unit 9
+==70540== 
+==70547== 
+==70546== 
+==70541== 
+==70539== 
+==70545== 
+==70551== 
+==70542== 
+==70544== 
+==70552== 
+==70548== 
+==70538== 
+==70543== 
+==70550== 
+==70549== 
+==70537== 
+==4446== For interactive control, run 'callgrind_control -h'.
+==4440== For interactive control, run 'callgrind_control -h'.
+==4441== For interactive control, run 'callgrind_control -h'.
+==4433== For interactive control, run 'callgrind_control -h'.
+==4434== For interactive control, run 'callgrind_control -h'.
+==4445== For interactive control, run 'callgrind_control -h'.
+==4443== For interactive control, run 'callgrind_control -h'.
+==4432== For interactive control, run 'callgrind_control -h'.
+==4442== For interactive control, run 'callgrind_control -h'.
+==4437== For interactive control, run 'callgrind_control -h'.
+==4439== For interactive control, run 'callgrind_control -h'.
+==70541== For interactive control, run 'callgrind_control -h'.
+==70539== For interactive control, run 'callgrind_control -h'.
+==70548== For interactive control, run 'callgrind_control -h'.
+==4444== For interactive control, run 'callgrind_control -h'.
+==70542== For interactive control, run 'callgrind_control -h'.
+==4436== For interactive control, run 'callgrind_control -h'.
+==92478== Callgrind, a call-graph generating cache profiler
+==92478== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==70545== For interactive control, run 'callgrind_control -h'.
+==92478== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92478== Command: p4est_mesh unit 9
+==4431== For interactive control, run 'callgrind_control -h'.
+==92478== 
+==70552== For interactive control, run 'callgrind_control -h'.
+==4435== For interactive control, run 'callgrind_control -h'.
+==70538== For interactive control, run 'callgrind_control -h'.
+==4438== For interactive control, run 'callgrind_control -h'.
+==70551== For interactive control, run 'callgrind_control -h'.
+==70540== For interactive control, run 'callgrind_control -h'.
+==70547== For interactive control, run 'callgrind_control -h'.
+==70550== For interactive control, run 'callgrind_control -h'.
+==70543== For interactive control, run 'callgrind_control -h'.
+==70546== For interactive control, run 'callgrind_control -h'.
+==70537== For interactive control, run 'callgrind_control -h'.
+==92478== For interactive control, run 'callgrind_control -h'.
+==70544== For interactive control, run 'callgrind_control -h'.
+==70549== For interactive control, run 'callgrind_control -h'.
+==92482== Callgrind, a call-graph generating cache profiler
+==92482== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92482== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92482== Command: p4est_mesh unit 9
+==92482== 
+==92474== Callgrind, a call-graph generating cache profiler
+==92474== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92474== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92474== Command: p4est_mesh unit 9
+==92474== 
+==92473== Callgrind, a call-graph generating cache profiler
+==92475== Callgrind, a call-graph generating cache profiler
+==92473== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92475== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92473== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92475== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92476== Callgrind, a call-graph generating cache profiler
+==92476== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92476== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92473== Command: p4est_mesh unit 9
+==92486== Callgrind, a call-graph generating cache profiler
+==92475== Command: p4est_mesh unit 9
+==92476== Command: p4est_mesh unit 9
+==92477== Callgrind, a call-graph generating cache profiler
+==92477== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92486== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92476== 
+==92486== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92477== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92471== Callgrind, a call-graph generating cache profiler
+==92475== 
+==92486== Command: p4est_mesh unit 9
+==92486== 
+==92481== Callgrind, a call-graph generating cache profiler
+==92483== Callgrind, a call-graph generating cache profiler
+==92484== Callgrind, a call-graph generating cache profiler
+==92477== Command: p4est_mesh unit 9
+==92471== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92473== 
+==92479== Callgrind, a call-graph generating cache profiler
+==92483== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92481== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92484== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92484== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92480== Callgrind, a call-graph generating cache profiler
+==92477== 
+==92483== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92479== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92480== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92479== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92481== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92471== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92484== Command: p4est_mesh unit 9
+==92483== Command: p4est_mesh unit 9
+==92485== Callgrind, a call-graph generating cache profiler
+==92472== Callgrind, a call-graph generating cache profiler
+==92485== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92481== Command: p4est_mesh unit 9
+==92480== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92484== 
+==92472== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==92485== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92472== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==92479== Command: p4est_mesh unit 9
+==92481== 
+==92485== Command: p4est_mesh unit 9
+==92483== 
+==92480== Command: p4est_mesh unit 9
+==92480== 
+==92471== Command: p4est_mesh unit 9
+==92472== Command: p4est_mesh unit 9
+==92479== 
+==92485== 
+==92471== 
+==92472== 
+==92482== For interactive control, run 'callgrind_control -h'.
+==92474== For interactive control, run 'callgrind_control -h'.
+==92475== For interactive control, run 'callgrind_control -h'.
+==92476== For interactive control, run 'callgrind_control -h'.
+==92486== For interactive control, run 'callgrind_control -h'.
+==92477== For interactive control, run 'callgrind_control -h'.
+==92473== For interactive control, run 'callgrind_control -h'.
+==92484== For interactive control, run 'callgrind_control -h'.
+==92481== For interactive control, run 'callgrind_control -h'.
+==92483== For interactive control, run 'callgrind_control -h'.
+==92479== For interactive control, run 'callgrind_control -h'.
+==92480== For interactive control, run 'callgrind_control -h'.
+==92472== For interactive control, run 'callgrind_control -h'.
+==92485== For interactive control, run 'callgrind_control -h'.
+==92471== For interactive control, run 'callgrind_control -h'.
+==5912== Callgrind, a call-graph generating cache profiler
+==5912== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5912== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5912== Command: p4est_mesh unit 9
+==5912== 
+==5910== Callgrind, a call-graph generating cache profiler
+==5914== Callgrind, a call-graph generating cache profiler
+==5910== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5914== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5910== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5914== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5910== Command: p4est_mesh unit 9
+==5914== Command: p4est_mesh unit 9
+==5914== 
+==5910== 
+==5918== Callgrind, a call-graph generating cache profiler
+==5916== Callgrind, a call-graph generating cache profiler
+==5918== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5920== Callgrind, a call-graph generating cache profiler
+==5920== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5916== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5918== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5920== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5919== Callgrind, a call-graph generating cache profiler
+==5918== Command: p4est_mesh unit 9
+==5920== Command: p4est_mesh unit 9
+==5919== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5918== 
+==5916== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5920== 
+==5919== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5919== Command: p4est_mesh unit 9
+==5909== Callgrind, a call-graph generating cache profiler
+==5908== Callgrind, a call-graph generating cache profiler
+==5919== 
+==5909== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5916== Command: p4est_mesh unit 9
+==5908== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5909== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5908== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5916== 
+==5915== Callgrind, a call-graph generating cache profiler
+==5907== Callgrind, a call-graph generating cache profiler
+==5909== Command: p4est_mesh unit 9
+==5908== Command: p4est_mesh unit 9
+==5907== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5908== 
+==5907== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5909== 
+==5915== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5907== Command: p4est_mesh unit 9
+==5911== Callgrind, a call-graph generating cache profiler
+==5915== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5907== 
+==5915== Command: p4est_mesh unit 9
+==5915== 
+==5911== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5911== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5911== Command: p4est_mesh unit 9
+==5911== 
+==5905== Callgrind, a call-graph generating cache profiler
+==5905== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5905== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5905== Command: p4est_mesh unit 9
+==5905== 
+==5906== Callgrind, a call-graph generating cache profiler
+==5906== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5906== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5906== Command: p4est_mesh unit 9
+==5906== 
+==5917== Callgrind, a call-graph generating cache profiler
+==5917== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5917== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5917== Command: p4est_mesh unit 9
+==5917== 
+==5913== Callgrind, a call-graph generating cache profiler
+==5913== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5913== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5913== Command: p4est_mesh unit 9
+==5913== 
+==5912== For interactive control, run 'callgrind_control -h'.
+==5910== For interactive control, run 'callgrind_control -h'.
+==5914== For interactive control, run 'callgrind_control -h'.
+==5918== For interactive control, run 'callgrind_control -h'.
+==99373== Callgrind, a call-graph generating cache profiler
+==99372== Callgrind, a call-graph generating cache profiler
+==99374== Callgrind, a call-graph generating cache profiler
+==99360== Callgrind, a call-graph generating cache profiler
+==99361== Callgrind, a call-graph generating cache profiler
+==99370== Callgrind, a call-graph generating cache profiler
+==99363== Callgrind, a call-graph generating cache profiler
+==99366== Callgrind, a call-graph generating cache profiler
+==99362== Callgrind, a call-graph generating cache profiler
+==99368== Callgrind, a call-graph generating cache profiler
+==99364== Callgrind, a call-graph generating cache profiler
+==99359== Callgrind, a call-graph generating cache profiler
+==99369== Callgrind, a call-graph generating cache profiler
+==99365== Callgrind, a call-graph generating cache profiler
+==99371== Callgrind, a call-graph generating cache profiler
+==99367== Callgrind, a call-graph generating cache profiler
+==5920== For interactive control, run 'callgrind_control -h'.
+==99371== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99365== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99367== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99366== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99362== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99369== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99368== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99370== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99372== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99364== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99360== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99373== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99359== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99363== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99361== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99374== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==99374== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99363== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99361== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99371== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99359== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99370== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99372== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99364== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99362== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99373== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99365== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99369== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99367== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99368== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99366== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99360== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==99360== Command: p4est_mesh unit 9
+==99359== Command: p4est_mesh unit 9
+==99361== Command: p4est_mesh unit 9
+==99365== Command: p4est_mesh unit 9
+==99371== Command: p4est_mesh unit 9
+==99368== Command: p4est_mesh unit 9
+==99374== Command: p4est_mesh unit 9
+==99363== Command: p4est_mesh unit 9
+==99364== Command: p4est_mesh unit 9
+==99369== Command: p4est_mesh unit 9
+==99367== Command: p4est_mesh unit 9
+==99372== Command: p4est_mesh unit 9
+==99366== Command: p4est_mesh unit 9
+==99373== Command: p4est_mesh unit 9
+==99370== Command: p4est_mesh unit 9
+==99362== Command: p4est_mesh unit 9
+==99366== 
+==99367== 
+==99362== 
+==99365== 
+==99372== 
+==99374== 
+==99373== 
+==99359== 
+==99360== 
+==99371== 
+==99363== 
+==99370== 
+==99369== 
+==99364== 
+==99361== 
+==99368== 
+==40203== Callgrind, a call-graph generating cache profiler
+==40206== Callgrind, a call-graph generating cache profiler
+==40208== Callgrind, a call-graph generating cache profiler
+==40205== Callgrind, a call-graph generating cache profiler
+==40211== Callgrind, a call-graph generating cache profiler
+==40211== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40203== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40206== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40205== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==5916== For interactive control, run 'callgrind_control -h'.
+==40208== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40203== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40211== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40208== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40206== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40205== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40205== Command: p4est_mesh unit 9
+==40211== Command: p4est_mesh unit 9
+==40203== Command: p4est_mesh unit 9
+==40208== Command: p4est_mesh unit 9
+==40206== Command: p4est_mesh unit 9
+==40206== 
+==40203== 
+==40208== 
+==40211== 
+==40205== 
+==99366== For interactive control, run 'callgrind_control -h'.
+==99368== For interactive control, run 'callgrind_control -h'.
+==99371== For interactive control, run 'callgrind_control -h'.
+==99374== For interactive control, run 'callgrind_control -h'.
+==99369== For interactive control, run 'callgrind_control -h'.
+==99364== For interactive control, run 'callgrind_control -h'.
+==99367== For interactive control, run 'callgrind_control -h'.
+==5919== For interactive control, run 'callgrind_control -h'.
+==40203== For interactive control, run 'callgrind_control -h'.
+==40205== For interactive control, run 'callgrind_control -h'.
+==40211== For interactive control, run 'callgrind_control -h'.
+==40206== For interactive control, run 'callgrind_control -h'.
+==5909== For interactive control, run 'callgrind_control -h'.
+==99372== For interactive control, run 'callgrind_control -h'.
+==40208== For interactive control, run 'callgrind_control -h'.
+==99370== For interactive control, run 'callgrind_control -h'.
+==99373== For interactive control, run 'callgrind_control -h'.
+==99365== For interactive control, run 'callgrind_control -h'.
+==99359== For interactive control, run 'callgrind_control -h'.
+==99363== For interactive control, run 'callgrind_control -h'.
+==40207== Callgrind, a call-graph generating cache profiler
+==40207== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40207== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40202== Callgrind, a call-graph generating cache profiler
+==40207== Command: p4est_mesh unit 9
+==40207== 
+==40202== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40209== Callgrind, a call-graph generating cache profiler
+==40202== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40209== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40202== Command: p4est_mesh unit 9
+==40201== Callgrind, a call-graph generating cache profiler
+==40201== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40209== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40213== Callgrind, a call-graph generating cache profiler
+==40212== Callgrind, a call-graph generating cache profiler
+==40204== Callgrind, a call-graph generating cache profiler
+==40212== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40202== 
+==40213== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40209== Command: p4est_mesh unit 9
+==40212== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40213== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40204== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40209== 
+==40212== Command: p4est_mesh unit 9
+==40212== 
+==40200== Callgrind, a call-graph generating cache profiler
+==40201== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40214== Callgrind, a call-graph generating cache profiler
+==99361== For interactive control, run 'callgrind_control -h'.
+==40200== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40210== Callgrind, a call-graph generating cache profiler
+==40214== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40213== Command: p4est_mesh unit 9
+==40204== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40201== Command: p4est_mesh unit 9
+==40214== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40204== Command: p4est_mesh unit 9
+==40210== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40201== 
+==40215== Callgrind, a call-graph generating cache profiler
+==40214== Command: p4est_mesh unit 9
+==40204== 
+==40213== 
+==40215== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==40210== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40214== 
+==40200== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40210== Command: p4est_mesh unit 9
+==40215== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==40215== Command: p4est_mesh unit 9
+==40200== Command: p4est_mesh unit 9
+==40210== 
+==40215== 
+==40200== 
+==99362== For interactive control, run 'callgrind_control -h'.
+==40207== For interactive control, run 'callgrind_control -h'.
+==99360== For interactive control, run 'callgrind_control -h'.
+==5908== For interactive control, run 'callgrind_control -h'.
+==40202== For interactive control, run 'callgrind_control -h'.
+==40209== For interactive control, run 'callgrind_control -h'.
+==5907== For interactive control, run 'callgrind_control -h'.
+==40212== For interactive control, run 'callgrind_control -h'.
+==40204== For interactive control, run 'callgrind_control -h'.
+==40213== For interactive control, run 'callgrind_control -h'.
+==5915== For interactive control, run 'callgrind_control -h'.
+==40201== For interactive control, run 'callgrind_control -h'.
+==5911== For interactive control, run 'callgrind_control -h'.
+==40214== For interactive control, run 'callgrind_control -h'.
+==40215== For interactive control, run 'callgrind_control -h'.
+==5905== For interactive control, run 'callgrind_control -h'.
+==40200== For interactive control, run 'callgrind_control -h'.
+==40210== For interactive control, run 'callgrind_control -h'.
+==5906== For interactive control, run 'callgrind_control -h'.
+==5917== For interactive control, run 'callgrind_control -h'.
+==5913== For interactive control, run 'callgrind_control -h'.
+==113367== Callgrind, a call-graph generating cache profiler
+==113364== Callgrind, a call-graph generating cache profiler
+==113363== Callgrind, a call-graph generating cache profiler
+==113365== Callgrind, a call-graph generating cache profiler
+==113360== Callgrind, a call-graph generating cache profiler
+==113372== Callgrind, a call-graph generating cache profiler
+==113371== Callgrind, a call-graph generating cache profiler
+==113361== Callgrind, a call-graph generating cache profiler
+==113361== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113371== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113372== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113365== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113364== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113363== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113360== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113367== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113363== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113365== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113371== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113367== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113372== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113360== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113361== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113364== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113362== Callgrind, a call-graph generating cache profiler
+==113362== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113362== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113362== Command: p4est_mesh unit 9
+==113361== Command: p4est_mesh unit 9
+==113365== Command: p4est_mesh unit 9
+==113372== Command: p4est_mesh unit 9
+==113363== Command: p4est_mesh unit 9
+==113360== Command: p4est_mesh unit 9
+==113367== Command: p4est_mesh unit 9
+==113364== Command: p4est_mesh unit 9
+==113371== Command: p4est_mesh unit 9
+==113374== Callgrind, a call-graph generating cache profiler
+==113374== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113374== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113374== Command: p4est_mesh unit 9
+==113374== 
+==113360== 
+==113372== 
+==113361== 
+==113365== 
+==113363== 
+==113367== 
+==113371== 
+==113368== Callgrind, a call-graph generating cache profiler
+==113362== 
+==113364== 
+==57442== Callgrind, a call-graph generating cache profiler
+==57431== Callgrind, a call-graph generating cache profiler
+==57440== Callgrind, a call-graph generating cache profiler
+==57430== Callgrind, a call-graph generating cache profiler
+==57435== Callgrind, a call-graph generating cache profiler
+==113368== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113368== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113368== Command: p4est_mesh unit 9
+==113368== 
+==113369== Callgrind, a call-graph generating cache profiler
+==113369== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57440== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57442== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113369== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57435== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57431== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57430== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113369== Command: p4est_mesh unit 9
+==113369== 
+==113366== Callgrind, a call-graph generating cache profiler
+==113366== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113366== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113366== Command: p4est_mesh unit 9
+==113366== 
+==57430== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57440== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57435== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57431== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57442== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113373== Callgrind, a call-graph generating cache profiler
+==113373== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113373== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57440== Command: p4est_mesh unit 9
+==57442== Command: p4est_mesh unit 9
+==57431== Command: p4est_mesh unit 9
+==57435== Command: p4est_mesh unit 9
+==57430== Command: p4est_mesh unit 9
+==113373== Command: p4est_mesh unit 9
+==113373== 
+==113370== Callgrind, a call-graph generating cache profiler
+==113370== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113370== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57440== 
+==57430== 
+==57442== 
+==57435== 
+==57431== 
+==113370== Command: p4est_mesh unit 9
+==113370== 
+==113375== Callgrind, a call-graph generating cache profiler
+==113375== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==113375== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==113375== Command: p4est_mesh unit 9
+==113375== 
+==61574== Callgrind, a call-graph generating cache profiler
+==61571== Callgrind, a call-graph generating cache profiler
+==61577== Callgrind, a call-graph generating cache profiler
+==61580== Callgrind, a call-graph generating cache profiler
+==61578== Callgrind, a call-graph generating cache profiler
+==61572== Callgrind, a call-graph generating cache profiler
+==61568== Callgrind, a call-graph generating cache profiler
+==61575== Callgrind, a call-graph generating cache profiler
+==61581== Callgrind, a call-graph generating cache profiler
+==61569== Callgrind, a call-graph generating cache profiler
+==61572== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61575== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61568== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61569== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61577== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61578== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61580== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61574== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61571== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61581== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61574== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61571== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61578== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61575== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61577== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61580== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61581== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61569== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61572== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61568== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61568== Command: p4est_mesh unit 9
+==61569== Command: p4est_mesh unit 9
+==61575== Command: p4est_mesh unit 9
+==61581== Command: p4est_mesh unit 9
+==61578== Command: p4est_mesh unit 9
+==61572== Command: p4est_mesh unit 9
+==61577== Command: p4est_mesh unit 9
+==61571== Command: p4est_mesh unit 9
+==61574== Command: p4est_mesh unit 9
+==61580== Command: p4est_mesh unit 9
+==61574== 
+==61571== 
+==61580== 
+==61572== 
+==61569== 
+==61578== 
+==61568== 
+==61581== 
+==61577== 
+==61575== 
+==57430== For interactive control, run 'callgrind_control -h'.
+==57431== For interactive control, run 'callgrind_control -h'.
+==57440== For interactive control, run 'callgrind_control -h'.
+==113364== For interactive control, run 'callgrind_control -h'.
+==113368== For interactive control, run 'callgrind_control -h'.
+==57435== For interactive control, run 'callgrind_control -h'.
+==57438== Callgrind, a call-graph generating cache profiler
+==57438== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57438== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57438== Command: p4est_mesh unit 9
+==57434== Callgrind, a call-graph generating cache profiler
+==57434== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57438== 
+==57434== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57437== Callgrind, a call-graph generating cache profiler
+==57429== Callgrind, a call-graph generating cache profiler
+==57439== Callgrind, a call-graph generating cache profiler
+==57434== Command: p4est_mesh unit 9
+==57437== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57429== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57437== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57436== Callgrind, a call-graph generating cache profiler
+==57429== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57429== Command: p4est_mesh unit 9
+==57439== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57434== 
+==57429== 
+==57439== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57439== Command: p4est_mesh unit 9
+==57437== Command: p4est_mesh unit 9
+==57432== Callgrind, a call-graph generating cache profiler
+==57428== Callgrind, a call-graph generating cache profiler
+==57437== 
+==57436== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61567== Callgrind, a call-graph generating cache profiler
+==61579== Callgrind, a call-graph generating cache profiler
+==57436== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61576== Callgrind, a call-graph generating cache profiler
+==61567== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61573== Callgrind, a call-graph generating cache profiler
+==61579== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61573== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61576== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61567== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61579== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61582== Callgrind, a call-graph generating cache profiler
+==61573== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61567== Command: p4est_mesh unit 9
+==61576== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61579== Command: p4est_mesh unit 9
+==61582== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57439== 
+==57428== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57432== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57436== Command: p4est_mesh unit 9
+==57428== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61573== Command: p4est_mesh unit 9
+==61567== 
+==61570== Callgrind, a call-graph generating cache profiler
+==61576== Command: p4est_mesh unit 9
+==61579== 
+==57432== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57436== 
+==57441== Callgrind, a call-graph generating cache profiler
+==113369== For interactive control, run 'callgrind_control -h'.
+==57432== Command: p4est_mesh unit 9
+==57443== Callgrind, a call-graph generating cache profiler
+==57428== Command: p4est_mesh unit 9
+==57433== Callgrind, a call-graph generating cache profiler
+==57441== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57443== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61582== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61570== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==61573== 
+==61582== Command: p4est_mesh unit 9
+==61576== 
+==61582== 
+==61570== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==61570== Command: p4est_mesh unit 9
+==61570== 
+==57443== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57433== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==57441== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57432== 
+==57428== 
+==57443== Command: p4est_mesh unit 9
+==57433== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==57441== Command: p4est_mesh unit 9
+==57433== Command: p4est_mesh unit 9
+==57443== 
+==57441== 
+==57433== 
+==57442== For interactive control, run 'callgrind_control -h'.
+==113371== For interactive control, run 'callgrind_control -h'.
+==113362== For interactive control, run 'callgrind_control -h'.
+==113360== For interactive control, run 'callgrind_control -h'.
+==113374== For interactive control, run 'callgrind_control -h'.
+==113366== For interactive control, run 'callgrind_control -h'.
+==57436== For interactive control, run 'callgrind_control -h'.
+==61569== For interactive control, run 'callgrind_control -h'.
+==61568== For interactive control, run 'callgrind_control -h'.
+==61574== For interactive control, run 'callgrind_control -h'.
+==61571== For interactive control, run 'callgrind_control -h'.
+==61572== For interactive control, run 'callgrind_control -h'.
+==113367== For interactive control, run 'callgrind_control -h'.
+==57438== For interactive control, run 'callgrind_control -h'.
+==61578== For interactive control, run 'callgrind_control -h'.
+==57429== For interactive control, run 'callgrind_control -h'.
+==61581== For interactive control, run 'callgrind_control -h'.
+==113373== For interactive control, run 'callgrind_control -h'.
+==61575== For interactive control, run 'callgrind_control -h'.
+==57439== For interactive control, run 'callgrind_control -h'.
+==61580== For interactive control, run 'callgrind_control -h'.
+==113363== For interactive control, run 'callgrind_control -h'.
+==61577== For interactive control, run 'callgrind_control -h'.
+==57437== For interactive control, run 'callgrind_control -h'.
+==113372== For interactive control, run 'callgrind_control -h'.
+==57434== For interactive control, run 'callgrind_control -h'.
+==61567== For interactive control, run 'callgrind_control -h'.
+==23134== Callgrind, a call-graph generating cache profiler
+==23126== Callgrind, a call-graph generating cache profiler
+==23124== Callgrind, a call-graph generating cache profiler
+==23133== Callgrind, a call-graph generating cache profiler
+==23122== Callgrind, a call-graph generating cache profiler
+==23130== Callgrind, a call-graph generating cache profiler
+==23137== Callgrind, a call-graph generating cache profiler
+==23136== Callgrind, a call-graph generating cache profiler
+==23125== Callgrind, a call-graph generating cache profiler
+==23123== Callgrind, a call-graph generating cache profiler
+==23135== Callgrind, a call-graph generating cache profiler
+==23129== Callgrind, a call-graph generating cache profiler
+==23127== Callgrind, a call-graph generating cache profiler
+==23128== Callgrind, a call-graph generating cache profiler
+==23131== Callgrind, a call-graph generating cache profiler
+==23132== Callgrind, a call-graph generating cache profiler
+==23132== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23123== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23137== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23127== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23131== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23122== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23135== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23133== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23136== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23129== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23125== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23128== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23130== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23134== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23124== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23126== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==23136== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23123== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23125== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23124== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23130== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23122== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23134== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23137== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23127== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23128== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23126== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23129== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23135== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23131== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23132== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23133== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23133== Command: p4est_mesh unit 9
+==23126== Command: p4est_mesh unit 9
+==23128== Command: p4est_mesh unit 9
+==23132== Command: p4est_mesh unit 9
+==23137== Command: p4est_mesh unit 9
+==23135== Command: p4est_mesh unit 9
+==23136== Command: p4est_mesh unit 9
+==23127== Command: p4est_mesh unit 9
+==23130== Command: p4est_mesh unit 9
+==23123== Command: p4est_mesh unit 9
+==23125== Command: p4est_mesh unit 9
+==23131== Command: p4est_mesh unit 9
+==23129== Command: p4est_mesh unit 9
+==23134== Command: p4est_mesh unit 9
+==23122== Command: p4est_mesh unit 9
+==23124== Command: p4est_mesh unit 9
+==23122== 
+==23123== 
+==23126== 
+==23125== 
+==23134== 
+==23137== 
+==23129== 
+==23124== 
+==23127== 
+==23130== 
+==23135== 
+==23131== 
+==23128== 
+==23132== 
+==23136== 
+==23133== 
+==61579== For interactive control, run 'callgrind_control -h'.
+==113365== For interactive control, run 'callgrind_control -h'.
+==61576== For interactive control, run 'callgrind_control -h'.
+==57428== For interactive control, run 'callgrind_control -h'.
+==113361== For interactive control, run 'callgrind_control -h'.
+==61573== For interactive control, run 'callgrind_control -h'.
+==57432== For interactive control, run 'callgrind_control -h'.
+==113370== For interactive control, run 'callgrind_control -h'.
+==61582== For interactive control, run 'callgrind_control -h'.
+==57443== For interactive control, run 'callgrind_control -h'.
+==113375== For interactive control, run 'callgrind_control -h'.
+==61570== For interactive control, run 'callgrind_control -h'.
+==57433== For interactive control, run 'callgrind_control -h'.
+==57441== For interactive control, run 'callgrind_control -h'.
+==23128== For interactive control, run 'callgrind_control -h'.
+==23126== For interactive control, run 'callgrind_control -h'.
+==23135== For interactive control, run 'callgrind_control -h'.
+==23129== For interactive control, run 'callgrind_control -h'.
+==23131== For interactive control, run 'callgrind_control -h'.
+==23124== For interactive control, run 'callgrind_control -h'.
+==23132== For interactive control, run 'callgrind_control -h'.
+==23133== For interactive control, run 'callgrind_control -h'.
+==23123== For interactive control, run 'callgrind_control -h'.
+==23127== For interactive control, run 'callgrind_control -h'.
+==23137== For interactive control, run 'callgrind_control -h'.
+==23134== For interactive control, run 'callgrind_control -h'.
+==23136== For interactive control, run 'callgrind_control -h'.
+==23125== For interactive control, run 'callgrind_control -h'.
+==23122== For interactive control, run 'callgrind_control -h'.
+==23130== For interactive control, run 'callgrind_control -h'.
+==83114== Callgrind, a call-graph generating cache profiler
+==83119== Callgrind, a call-graph generating cache profiler
+==83125== Callgrind, a call-graph generating cache profiler
+==83117== Callgrind, a call-graph generating cache profiler
+==83124== Callgrind, a call-graph generating cache profiler
+==83123== Callgrind, a call-graph generating cache profiler
+==83118== Callgrind, a call-graph generating cache profiler
+==83127== Callgrind, a call-graph generating cache profiler
+==83121== Callgrind, a call-graph generating cache profiler
+==83126== Callgrind, a call-graph generating cache profiler
+==83115== Callgrind, a call-graph generating cache profiler
+==83120== Callgrind, a call-graph generating cache profiler
+==83116== Callgrind, a call-graph generating cache profiler
+==83122== Callgrind, a call-graph generating cache profiler
+==83112== Callgrind, a call-graph generating cache profiler
+==83113== Callgrind, a call-graph generating cache profiler
+==83112== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83117== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83127== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83116== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83119== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83115== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83124== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83118== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83121== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83113== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83123== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83122== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83114== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83126== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83120== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83125== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==83125== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83118== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83120== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83117== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83113== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83124== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83115== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83116== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83126== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83112== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83114== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83122== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83123== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83121== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83119== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83127== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==83119== Command: p4est_mesh unit 9
+==83122== Command: p4est_mesh unit 9
+==83121== Command: p4est_mesh unit 9
+==83125== Command: p4est_mesh unit 9
+==83114== Command: p4est_mesh unit 9
+==83115== Command: p4est_mesh unit 9
+==83116== Command: p4est_mesh unit 9
+==83112== Command: p4est_mesh unit 9
+==83113== Command: p4est_mesh unit 9
+==83126== Command: p4est_mesh unit 9
+==83118== Command: p4est_mesh unit 9
+==83123== Command: p4est_mesh unit 9
+==83127== Command: p4est_mesh unit 9
+==83120== Command: p4est_mesh unit 9
+==83124== Command: p4est_mesh unit 9
+==83117== Command: p4est_mesh unit 9
+==83117== 
+==83119== 
+==83126== 
+==83123== 
+==83113== 
+==83124== 
+==83125== 
+==83115== 
+==83121== 
+==83120== 
+==83118== 
+==83127== 
+==83116== 
+==83114== 
+==83112== 
+==83122== 
+==83117== For interactive control, run 'callgrind_control -h'.
+==83112== For interactive control, run 'callgrind_control -h'.
+==83114== For interactive control, run 'callgrind_control -h'.
+==83122== For interactive control, run 'callgrind_control -h'.
+==83125== For interactive control, run 'callgrind_control -h'.
+==83121== For interactive control, run 'callgrind_control -h'.
+==83124== For interactive control, run 'callgrind_control -h'.
+==83119== For interactive control, run 'callgrind_control -h'.
+==83115== For interactive control, run 'callgrind_control -h'.
+==83126== For interactive control, run 'callgrind_control -h'.
+==83116== For interactive control, run 'callgrind_control -h'.
+==83123== For interactive control, run 'callgrind_control -h'.
+==83127== For interactive control, run 'callgrind_control -h'.
+==83120== For interactive control, run 'callgrind_control -h'.
+==83118== For interactive control, run 'callgrind_control -h'.
+==83113== For interactive control, run 'callgrind_control -h'.
+==23137== brk segment overflow in thread #1: can't grow to 0x481a000
+==23137== brk segment overflow in thread #1: can't grow to 0x481b000
+==23137== brk segment overflow in thread #1: can't grow to 0x481b000
+==23137== brk segment overflow in thread #1: can't grow to 0x481b000
+==23137== brk segment overflow in thread #1: can't grow to 0x481b000
+==23137== brk segment overflow in thread #1: can't grow to 0x481b000
+==23137== brk segment overflow in thread #1: can't grow to 0x489a000
+==23137== brk segment overflow in thread #1: can't grow to 0x491a000
+==23137== brk segment overflow in thread #1: can't grow to 0x491a000
+==23137== brk segment overflow in thread #1: can't grow to 0x4946000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x4826000
+==23137== brk segment overflow in thread #1: can't grow to 0x485a000
+==23137== brk segment overflow in thread #1: can't grow to 0x491a000
+slurmstepd: *** JOB 7757373 ON c434-203 CANCELLED AT 2016-10-21T13:24:19 DUE TO TIME LIMIT ***
+[c434-203.stampede.tacc.utexas.edu:mpirun_rsh][signal_processor] Caught signal 15, killing job

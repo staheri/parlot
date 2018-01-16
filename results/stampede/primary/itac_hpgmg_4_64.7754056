@@ -1,0 +1,43 @@
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 0, pid: 50764) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][spawn_processes] Failed to execvp() 'hpgmg-fv': No such file or directory (2)
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 1, pid: 50765) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 2, pid: 50766) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 3, pid: 50767) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 4, pid: 50768) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 5, pid: 50769) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 6, pid: 50770) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 7, pid: 50771) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 8, pid: 50772) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 9, pid: 50773) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 10, pid: 50774) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 11, pid: 50775) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 12, pid: 50776) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 13, pid: 50777) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 14, pid: 50778) exited with status 1
+[c544-503.stampede.tacc.utexas.edu:mpispawn_0][child_handler] MPI process (rank: 15, pid: 50779) exited with status 1
+Timeout during client startup.
+read: Connection reset by peer
+Error writing receiving environ!
+read: Connection reset by peer
+Error writing receiving environ!
+read: Connection reset by peer
+Error writing receiving environ!
+
+real	0m32.980s
+user	0m4.266s
+sys	0m23.261s

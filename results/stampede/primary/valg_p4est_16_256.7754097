@@ -1,0 +1,30 @@
+==433== Callgrind, a call-graph generating cache profiler
+==433== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==433== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==433== Command: /opt/apps/xalt/0.6/bin/ibrun p4est_mesh unit 9
+==433== 
+==433== For interactive control, run 'callgrind_control -h'.
+==436== 
+==436== Events    : Ir
+==436== Collected : 3497362
+==436== 
+==436== I   refs:      3,497,362
+==439== 
+==439== Events    : Ir
+==439== Collected : 10406891
+==439== 
+==439== I   refs:      10,406,891
+==442== 
+==442== Events    : Ir
+==442== Collected : 11206021
+==442== 
+==442== I   refs:      11,206,021
+==433== 
+==433== Events    : Ir
+==433== Collected : 14873012
+==433== 
+==433== I   refs:      14,873,012
+
+real	0m47.990s
+user	0m3.136s
+sys	0m1.184s

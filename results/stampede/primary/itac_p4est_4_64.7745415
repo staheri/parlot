@@ -1,0 +1,9 @@
+[0] Intel(R) Trace Collector INFO: Writing tracefile p4est_mesh.stf in /scratch/02309/staheri/results/itac_p4est_4_64
+[48] Failed to dealloc pd (Device or resource busy)
+[16] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+[32] Failed to dealloc pd (Device or resource busy)
+
+real	0m25.114s
+user	0m1.595s
+sys	0m0.595s

@@ -1,0 +1,10 @@
+[0] Intel(R) Trace Collector INFO: Writing tracefile p4est_mesh.stf in /scratch/02309/staheri/results/itac_p4est_4_64
+[0] Intel(R) Trace Collector WARNING: message logging: 13520 different messages, 0 (0.0%) sends without receive, 0 (0.0%) receives without send, 1 (0.0%) messages with reversed time stamps (average duration 0.000000e+00s)
+[0] Failed to dealloc pd (Device or resource busy)
+[32] Failed to dealloc pd (Device or resource busy)
+[48] Failed to dealloc pd (Device or resource busy)
+[16] Failed to dealloc pd (Device or resource busy)
+
+real	0m26.484s
+user	0m1.633s
+sys	0m0.584s

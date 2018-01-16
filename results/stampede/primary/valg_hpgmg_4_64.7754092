@@ -1,0 +1,30 @@
+==95754== Callgrind, a call-graph generating cache profiler
+==95754== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==95754== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==95754== Command: /opt/apps/xalt/0.6/bin/ibrun hpgmg-fv 4 1
+==95754== 
+==95754== For interactive control, run 'callgrind_control -h'.
+==95756== 
+==95756== Events    : Ir
+==95756== Collected : 3494528
+==95756== 
+==95756== I   refs:      3,494,528
+==95759== 
+==95759== Events    : Ir
+==95759== Collected : 10393095
+==95759== 
+==95759== I   refs:      10,393,095
+==95762== 
+==95762== Events    : Ir
+==95762== Collected : 11192121
+==95762== 
+==95762== I   refs:      11,192,121
+==95754== 
+==95754== Events    : Ir
+==95754== Collected : 14840980
+==95754== 
+==95754== I   refs:      14,840,980
+
+real	3m0.129s
+user	0m3.113s
+sys	0m7.702s

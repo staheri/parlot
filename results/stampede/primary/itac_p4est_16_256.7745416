@@ -1,0 +1,6 @@
+[0] Intel(R) Trace Collector INFO: Writing tracefile p4est_mesh.stf in /scratch/02309/staheri/results/itac_p4est_16_256
+[0] Intel(R) Trace Collector WARNING: message logging: 63840 different messages, 0 (0.0%) sends without receive, 0 (0.0%) receives without send, 3 (0.0%) messages with reversed time stamps (average duration 0.000000e+00s)
+
+real	0m28.238s
+user	0m2.332s
+sys	0m0.982s

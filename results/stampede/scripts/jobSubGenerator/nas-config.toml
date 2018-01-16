@@ -1,0 +1,139 @@
+# Autho: Saeed Taheri, University of Utah, 2017
+# Code: config.toml
+# Description: Configuration file for running PINtool and other similar tools for Related Tools Evaluation ( ON STAMPEDE)
+
+# MetaDataFormat = "toml"
+
+[benchmarks]
+	[benchmarks.nas]
+		path="/home1/02309/staheri/benchmarks/NPB3.3.1/NPB3.3-MPI/bin/"
+
+[compilers]
+	[compilers.mpicc]
+		module=[]
+		env_var=[]		
+	[compilers.tau]
+		module=["tau"]
+		env_var=["TAU_OPTIONS=-optCompInst","TAU_TRACE=1"]
+	[compilers.scorep]
+		module=[]
+		env_var=["SCOREP_ENABLE_TRACING=1"]				
+[nasapps]
+	[nasapps.bt]
+		file="bt.C"
+	[nasapps.cg]
+		file="cg.C"
+	[nasapps.ep]
+		file="ep.C"
+	[nasapps.ft]
+		file="ft.C"
+	[nasapps.is]
+		file="is.C"
+	[nasapps.lu]
+		file="lu.C"
+	[nasapps.mg]
+		file="mg.C"
+	[nasapps.sp]
+		file="sp.C"
+[topo]
+	[topo.1]
+		n_node="1"
+		n_task="16"
+	[topo.2]
+		n_node="4"
+		n_task="64"
+	[topo.3]
+		n_node="16"
+		n_task="256"
+	[topo.4]
+		n_node="64"
+		n_task="1024"
+
+[nasflags]
+	[nasflags.o1]
+	[nasflags.o2]
+	[nasflags.o3]
+	[nasflags.wo]
+
+	
+
+[instool]
+        [instool.orig]
+                command="time ibrun"
+                module=[]
+                env_var=[]
+                needed_files=[]
+                path=[]
+        [instool.pinMain]
+                command="time ibrun pin -t DBGpin17mainimage.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/DBG17main/obj-intel64/DBGpin17mainimage.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+        [instool.pinAll]
+                command="time ibrun pin -t DBGpin17allimages.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/DBG17all/obj-intel64/DBGpin17allimages.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+        [instool.wpinMain]
+                command="time ibrun pin -t WDBGpin17mainimage.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/WDBG17main/obj-intel64/WDBGpin17mainimage.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+        [instool.wpinAll]
+                command="time ibrun pin -t WDBGpin17allimages.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/WDBG17all/obj-intel64/WDBGpin17allimages.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+        [instool.npinMain]
+                command="time ibrun pin -t NDBGpin17mainimage.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/NDBG17main/obj-intel64/NDBGpin17mainimage.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+        [instool.npinAll]
+                command="time ibrun pin -t NDBGpin17allimages.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/NDBG17all/obj-intel64/NDBGpin17allimages.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+	[instool.hpinMain]
+                command="time ibrun pin -t HDBGpin17mainimage.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/HDBG17main/obj-intel64/HDBGpin17mainimage.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+	[instool.hpinAll]
+                command="time ibrun pin -t HDBGpin17allimages.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/HDBG17all/obj-intel64/HDBGpin17allimages.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+	[instool.dpinMain]
+                command="time ibrun pin -t DDBGpin17mainimage.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/DDBG17main/obj-intel64/DDBGpin17mainimage.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+	[instool.dpinAll]
+                command="time ibrun pin -t DDBGpin17allimages.so --"
+                module=[]
+                env_var=[]
+                needed_files=["/home1/02309/staheri/apps/pintool/pin/source/tools/DDBG17all/obj-intel64/DDBGpin17allimages.so"]
+                path=["/home1/02309/staheri/apps/pintool/pin"]
+        [instool.callgrind]
+                command="time ibrun valgrind --tool=callgrind"
+                module=[]
+                env_var=[]
+                needed_files=[]
+                path=["$HOME/apps/valgrind/bin"]
+        [instool.tau_exec]
+                command="time ibrun tau_exec -ebs"
+                module=["tau"]
+                env_var=["TAU_OPTIONS=-optCompInst","TAU_TRACE=1"]
+                needed_files=[]
+                path=[]
+

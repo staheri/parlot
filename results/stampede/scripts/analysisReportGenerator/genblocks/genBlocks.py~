@@ -1,0 +1,46 @@
+# Author: Saeed Taheri
+#         University of Utah
+#         staheri@cs.utah.edu
+#         2017, All rights reserved
+# Code: genStat.py
+# Description: Generates the statistic report
+
+
+from ops2 import *
+import ds2
+import argparse
+
+
+if len(sys.argv) != 3:
+	print "USAGE:\n\t " +sys.argv[0]+" input-path output-path"
+	sys.exit(-1)
+
+inpath=sys.argv[1]
+outpath=sys.argv[2]
+
+
+tools=["pinMain","pinAll","dpinMain","dpinAll","npinMain","npinAll","hpinMain","hpinAll","wpinMain","wpinAll","callgrind","tau_exec"]
+modes=["avg","med","min","max"]
+
+objects = sorting(fileToObj(inpath))
+
+data = genStatObjects(objects)
+
+metric = "sd"
+for tool in tools:
+	for mode in modes:
+		print metric+"_"+tool+"_"+mode
+		genBlocks(data,metric,tool,mode,0,0,outpath)
+
+
+
+
+tools=["pinMain","pinAll","callgrind","tau_exec"]
+
+metric = "ts"
+for tool in tools:
+	for mode in modes:
+		for ipc in [0,1]:
+			for ips in [0,1]:
+				print metric+"_"+tool+"_"+mode
+				genBlocks(data,metric,tool,mode,ipc,ips,outpath)

@@ -1,0 +1,996 @@
+==93754== Callgrind, a call-graph generating cache profiler
+==93757== Callgrind, a call-graph generating cache profiler
+==93760== Callgrind, a call-graph generating cache profiler
+==93749== Callgrind, a call-graph generating cache profiler
+==93762== Callgrind, a call-graph generating cache profiler
+==93750== Callgrind, a call-graph generating cache profiler
+==93748== Callgrind, a call-graph generating cache profiler
+==93761== Callgrind, a call-graph generating cache profiler
+==93759== Callgrind, a call-graph generating cache profiler
+==93751== Callgrind, a call-graph generating cache profiler
+==93763== Callgrind, a call-graph generating cache profiler
+==93752== Callgrind, a call-graph generating cache profiler
+==93758== Callgrind, a call-graph generating cache profiler
+==93755== Callgrind, a call-graph generating cache profiler
+==93756== Callgrind, a call-graph generating cache profiler
+==93753== Callgrind, a call-graph generating cache profiler
+==93752== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93757== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93751== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93748== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93750== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93762== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93754== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93753== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93756== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93755== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93749== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93760== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93763== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93758== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93759== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93761== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==93761== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93755== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93748== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93751== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93759== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93762== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93763== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93757== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93758== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93756== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93752== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93754== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93760== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93750== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93749== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93753== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==93760== Command: hpgmg-fv 4 1
+==93757== Command: hpgmg-fv 4 1
+==93754== Command: hpgmg-fv 4 1
+==93750== Command: hpgmg-fv 4 1
+==93753== Command: hpgmg-fv 4 1
+==93751== Command: hpgmg-fv 4 1
+==93759== Command: hpgmg-fv 4 1
+==93749== Command: hpgmg-fv 4 1
+==93762== Command: hpgmg-fv 4 1
+==93755== Command: hpgmg-fv 4 1
+==93758== Command: hpgmg-fv 4 1
+==93761== Command: hpgmg-fv 4 1
+==93763== Command: hpgmg-fv 4 1
+==93748== Command: hpgmg-fv 4 1
+==93752== Command: hpgmg-fv 4 1
+==93756== Command: hpgmg-fv 4 1
+==93756== 
+==93748== 
+==93752== 
+==93759== 
+==93755== 
+==93763== 
+==93754== 
+==93751== 
+==93749== 
+==93761== 
+==93758== 
+==93762== 
+==93760== 
+==93753== 
+==93757== 
+==93750== 
+==93758== For interactive control, run 'callgrind_control -h'.
+==93756== For interactive control, run 'callgrind_control -h'.
+==93751== For interactive control, run 'callgrind_control -h'.
+==93748== For interactive control, run 'callgrind_control -h'.
+==93750== For interactive control, run 'callgrind_control -h'.
+==93749== For interactive control, run 'callgrind_control -h'.
+==93754== For interactive control, run 'callgrind_control -h'.
+==93753== For interactive control, run 'callgrind_control -h'.
+==93762== For interactive control, run 'callgrind_control -h'.
+==93761== For interactive control, run 'callgrind_control -h'.
+==93752== For interactive control, run 'callgrind_control -h'.
+==93760== For interactive control, run 'callgrind_control -h'.
+==93755== For interactive control, run 'callgrind_control -h'.
+==93757== For interactive control, run 'callgrind_control -h'.
+==93763== For interactive control, run 'callgrind_control -h'.
+==93759== For interactive control, run 'callgrind_control -h'.
+==67220== Callgrind, a call-graph generating cache profiler
+==67217== Callgrind, a call-graph generating cache profiler
+==67229== Callgrind, a call-graph generating cache profiler
+==67228== Callgrind, a call-graph generating cache profiler
+==67224== Callgrind, a call-graph generating cache profiler
+==67219== Callgrind, a call-graph generating cache profiler
+==67225== Callgrind, a call-graph generating cache profiler
+==67222== Callgrind, a call-graph generating cache profiler
+==67230== Callgrind, a call-graph generating cache profiler
+==67218== Callgrind, a call-graph generating cache profiler
+==67226== Callgrind, a call-graph generating cache profiler
+==67223== Callgrind, a call-graph generating cache profiler
+==67227== Callgrind, a call-graph generating cache profiler
+==67231== Callgrind, a call-graph generating cache profiler
+==67221== Callgrind, a call-graph generating cache profiler
+==67216== Callgrind, a call-graph generating cache profiler
+==67216== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67231== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67219== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67221== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67222== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67224== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67229== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67230== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67223== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67227== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67226== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67225== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67228== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67217== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67220== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67218== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==67222== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67231== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67218== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67226== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67229== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67219== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67225== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67216== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67220== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67217== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67221== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67223== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67224== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67228== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67227== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67230== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==67227== Command: hpgmg-fv 4 1
+==67228== Command: hpgmg-fv 4 1
+==67230== Command: hpgmg-fv 4 1
+==67224== Command: hpgmg-fv 4 1
+==67222== Command: hpgmg-fv 4 1
+==67219== Command: hpgmg-fv 4 1
+==67225== Command: hpgmg-fv 4 1
+==67216== Command: hpgmg-fv 4 1
+==67221== Command: hpgmg-fv 4 1
+==67229== Command: hpgmg-fv 4 1
+==67226== Command: hpgmg-fv 4 1
+==67231== Command: hpgmg-fv 4 1
+==67223== Command: hpgmg-fv 4 1
+==67220== Command: hpgmg-fv 4 1
+==67217== Command: hpgmg-fv 4 1
+==67218== Command: hpgmg-fv 4 1
+==67217== 
+==67221== 
+==67227== 
+==67216== 
+==67220== 
+==67223== 
+==67222== 
+==67218== 
+==67230== 
+==67231== 
+==67229== 
+==67225== 
+==67226== 
+==67219== 
+==67228== 
+==67224== 
+==67229== For interactive control, run 'callgrind_control -h'.
+==67222== For interactive control, run 'callgrind_control -h'.
+==67221== For interactive control, run 'callgrind_control -h'.
+==67228== For interactive control, run 'callgrind_control -h'.
+==67226== For interactive control, run 'callgrind_control -h'.
+==67231== For interactive control, run 'callgrind_control -h'.
+==67218== For interactive control, run 'callgrind_control -h'.
+==67223== For interactive control, run 'callgrind_control -h'.
+==67224== For interactive control, run 'callgrind_control -h'.
+==67216== For interactive control, run 'callgrind_control -h'.
+==67220== For interactive control, run 'callgrind_control -h'.
+==67217== For interactive control, run 'callgrind_control -h'.
+==67227== For interactive control, run 'callgrind_control -h'.
+==67230== For interactive control, run 'callgrind_control -h'.
+==67225== For interactive control, run 'callgrind_control -h'.
+==67219== For interactive control, run 'callgrind_control -h'.
+==50515== Callgrind, a call-graph generating cache profiler
+==50518== Callgrind, a call-graph generating cache profiler
+==50505== Callgrind, a call-graph generating cache profiler
+==50513== Callgrind, a call-graph generating cache profiler
+==50511== Callgrind, a call-graph generating cache profiler
+==50517== Callgrind, a call-graph generating cache profiler
+==50516== Callgrind, a call-graph generating cache profiler
+==50514== Callgrind, a call-graph generating cache profiler
+==50514== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50511== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50517== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50515== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50518== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50513== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50505== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50516== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50515== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50514== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50511== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50517== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50505== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50516== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50513== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50518== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50518== Command: hpgmg-fv 4 1
+==50513== Command: hpgmg-fv 4 1
+==50515== Command: hpgmg-fv 4 1
+==50516== Command: hpgmg-fv 4 1
+==50505== Command: hpgmg-fv 4 1
+==50511== Command: hpgmg-fv 4 1
+==50517== Command: hpgmg-fv 4 1
+==50514== Command: hpgmg-fv 4 1
+==50517== 
+==50514== 
+==50505== 
+==50518== 
+==50515== 
+==50511== 
+==50516== 
+==50513== 
+==50505== For interactive control, run 'callgrind_control -h'.
+==50518== For interactive control, run 'callgrind_control -h'.
+==50514== For interactive control, run 'callgrind_control -h'.
+==50513== For interactive control, run 'callgrind_control -h'.
+==50516== For interactive control, run 'callgrind_control -h'.
+==50511== For interactive control, run 'callgrind_control -h'.
+==50515== For interactive control, run 'callgrind_control -h'.
+==50517== For interactive control, run 'callgrind_control -h'.
+==50507== Callgrind, a call-graph generating cache profiler
+==50504== Callgrind, a call-graph generating cache profiler
+==50506== Callgrind, a call-graph generating cache profiler
+==50507== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50504== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50506== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50519== Callgrind, a call-graph generating cache profiler
+==50504== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50506== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50519== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50504== Command: hpgmg-fv 4 1
+==50507== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50506== Command: hpgmg-fv 4 1
+==50519== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50504== 
+==50506== 
+==50507== Command: hpgmg-fv 4 1
+==50519== Command: hpgmg-fv 4 1
+==50507== 
+==50519== 
+==50509== Callgrind, a call-graph generating cache profiler
+==50509== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50512== Callgrind, a call-graph generating cache profiler
+==50509== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50508== Callgrind, a call-graph generating cache profiler
+==50512== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50508== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50509== Command: hpgmg-fv 4 1
+==50510== Callgrind, a call-graph generating cache profiler
+==50512== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50508== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50509== 
+==50510== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==50512== Command: hpgmg-fv 4 1
+==50508== Command: hpgmg-fv 4 1
+==50508== 
+==50512== 
+==50510== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==50510== Command: hpgmg-fv 4 1
+==50510== 
+==50504== For interactive control, run 'callgrind_control -h'.
+==50519== For interactive control, run 'callgrind_control -h'.
+==50506== For interactive control, run 'callgrind_control -h'.
+==50507== For interactive control, run 'callgrind_control -h'.
+==50509== For interactive control, run 'callgrind_control -h'.
+==50512== For interactive control, run 'callgrind_control -h'.
+==50508== For interactive control, run 'callgrind_control -h'.
+==50510== For interactive control, run 'callgrind_control -h'.
+==32370== Callgrind, a call-graph generating cache profiler
+==32374== Callgrind, a call-graph generating cache profiler
+==32379== Callgrind, a call-graph generating cache profiler
+==32369== Callgrind, a call-graph generating cache profiler
+==32372== Callgrind, a call-graph generating cache profiler
+==32378== Callgrind, a call-graph generating cache profiler
+==32381== Callgrind, a call-graph generating cache profiler
+==32366== Callgrind, a call-graph generating cache profiler
+==32367== Callgrind, a call-graph generating cache profiler
+==32375== Callgrind, a call-graph generating cache profiler
+==32371== Callgrind, a call-graph generating cache profiler
+==32377== Callgrind, a call-graph generating cache profiler
+==32376== Callgrind, a call-graph generating cache profiler
+==32380== Callgrind, a call-graph generating cache profiler
+==32368== Callgrind, a call-graph generating cache profiler
+==32373== Callgrind, a call-graph generating cache profiler
+==32368== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32371== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32381== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32376== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32366== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32372== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32378== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32375== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32373== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32369== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32370== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32377== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32367== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32380== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32379== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32374== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==32370== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32381== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32377== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32367== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32369== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32379== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32375== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32376== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32373== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32368== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32374== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32366== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32380== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32371== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32378== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32372== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32374== Command: hpgmg-fv 4 1
+==32370== Command: hpgmg-fv 4 1
+==32375== Command: hpgmg-fv 4 1
+==32368== Command: hpgmg-fv 4 1
+==32371== Command: hpgmg-fv 4 1
+==32366== Command: hpgmg-fv 4 1
+==32376== Command: hpgmg-fv 4 1
+==32380== Command: hpgmg-fv 4 1
+==32378== Command: hpgmg-fv 4 1
+==32381== Command: hpgmg-fv 4 1
+==32377== Command: hpgmg-fv 4 1
+==32372== Command: hpgmg-fv 4 1
+==32367== Command: hpgmg-fv 4 1
+==32369== Command: hpgmg-fv 4 1
+==32379== Command: hpgmg-fv 4 1
+==32373== Command: hpgmg-fv 4 1
+==32379== 
+==32381== 
+==32375== 
+==32376== 
+==32366== 
+==32374== 
+==32378== 
+==32369== 
+==32371== 
+==32368== 
+==32370== 
+==32367== 
+==32380== 
+==32373== 
+==32372== 
+==32377== 
+==32381== For interactive control, run 'callgrind_control -h'.
+==32376== For interactive control, run 'callgrind_control -h'.
+==32367== For interactive control, run 'callgrind_control -h'.
+==32373== For interactive control, run 'callgrind_control -h'.
+==32377== For interactive control, run 'callgrind_control -h'.
+==32374== For interactive control, run 'callgrind_control -h'.
+==32366== For interactive control, run 'callgrind_control -h'.
+==32375== For interactive control, run 'callgrind_control -h'.
+==32379== For interactive control, run 'callgrind_control -h'.
+==32378== For interactive control, run 'callgrind_control -h'.
+==32371== For interactive control, run 'callgrind_control -h'.
+==32369== For interactive control, run 'callgrind_control -h'.
+==32370== For interactive control, run 'callgrind_control -h'.
+==32372== For interactive control, run 'callgrind_control -h'.
+==32368== For interactive control, run 'callgrind_control -h'.
+==32380== For interactive control, run 'callgrind_control -h'.
+==93756== brk segment overflow in thread #1: can't grow to 0x480e000
+==32368== brk segment overflow in thread #1: can't grow to 0x4820000
+==32377== brk segment overflow in thread #1: can't grow to 0x4820000
+==50510== brk segment overflow in thread #1: can't grow to 0x4820000
+==93752== brk segment overflow in thread #1: can't grow to 0x480e000
+==93761== brk segment overflow in thread #1: can't grow to 0x480e000
+==32381== brk segment overflow in thread #1: can't grow to 0x480e000
+==32366== brk segment overflow in thread #1: can't grow to 0x480e000
+==32369== brk segment overflow in thread #1: can't grow to 0x480e000
+==32372== brk segment overflow in thread #1: can't grow to 0x480e000
+==32376== brk segment overflow in thread #1: can't grow to 0x480e000
+==32375== brk segment overflow in thread #1: can't grow to 0x480e000
+==50519== brk segment overflow in thread #1: can't grow to 0x4820000
+==93749== brk segment overflow in thread #1: can't grow to 0x480e000
+==50511== brk segment overflow in thread #1: can't grow to 0x480e000
+==93750== brk segment overflow in thread #1: can't grow to 0x480e000
+==93759== brk segment overflow in thread #1: can't grow to 0x480e000
+==67220== brk segment overflow in thread #1: can't grow to 0x4820000
+==67216== brk segment overflow in thread #1: can't grow to 0x480e000
+==67229== brk segment overflow in thread #1: can't grow to 0x4820000
+==67221== brk segment overflow in thread #1: can't grow to 0x480e000
+==67222== brk segment overflow in thread #1: can't grow to 0x480e000
+==50515== brk segment overflow in thread #1: can't grow to 0x480e000
+==50506== brk segment overflow in thread #1: can't grow to 0x480e000
+==50518== brk segment overflow in thread #1: can't grow to 0x480e000
+==67225== brk segment overflow in thread #1: can't grow to 0x480e000
+==67231== brk segment overflow in thread #1: can't grow to 0x480e000
+==67228== brk segment overflow in thread #1: can't grow to 0x480e000
+==50508== brk segment overflow in thread #1: can't grow to 0x480e000
+==93760== brk segment overflow in thread #1: can't grow to 0x4812000
+==93748== brk segment overflow in thread #1: can't grow to 0x4820000
+==93753== brk segment overflow in thread #1: can't grow to 0x4812000
+==32374== brk segment overflow in thread #1: can't grow to 0x4812000
+==32370== brk segment overflow in thread #1: can't grow to 0x4812000
+==32367== brk segment overflow in thread #1: can't grow to 0x4812000
+==32373== brk segment overflow in thread #1: can't grow to 0x4812000
+==93757== brk segment overflow in thread #1: can't grow to 0x4820000
+==67224== brk segment overflow in thread #1: can't grow to 0x4812000
+==50517== brk segment overflow in thread #1: can't grow to 0x480e000
+==50504== brk segment overflow in thread #1: can't grow to 0x4812000
+==67217== brk segment overflow in thread #1: can't grow to 0x4812000
+==67223== brk segment overflow in thread #1: can't grow to 0x4812000
+==93751== brk segment overflow in thread #1: can't grow to 0x4812000
+==32380== brk segment overflow in thread #1: can't grow to 0x4812000
+==32379== brk segment overflow in thread #1: can't grow to 0x4812000
+==93763== brk segment overflow in thread #1: can't grow to 0x4812000
+==67230== brk segment overflow in thread #1: can't grow to 0x4812000
+==93754== brk segment overflow in thread #1: can't grow to 0x4812000
+==50509== brk segment overflow in thread #1: can't grow to 0x4812000
+==50513== brk segment overflow in thread #1: can't grow to 0x4812000
+==50507== brk segment overflow in thread #1: can't grow to 0x4812000
+==50516== brk segment overflow in thread #1: can't grow to 0x4812000
+==50514== brk segment overflow in thread #1: can't grow to 0x4812000
+==67218== brk segment overflow in thread #1: can't grow to 0x4812000
+==67227== brk segment overflow in thread #1: can't grow to 0x4812000
+==93758== brk segment overflow in thread #1: can't grow to 0x4812000
+==50512== brk segment overflow in thread #1: can't grow to 0x4802000
+==50504== brk segment overflow in thread #1: can't grow to 0x4831000
+==32366== brk segment overflow in thread #1: can't grow to 0x4810000
+==67216== brk segment overflow in thread #1: can't grow to 0x4810000
+==32374== brk segment overflow in thread #1: can't grow to 0x4831000
+==67224== brk segment overflow in thread #1: can't grow to 0x4831000
+==93756== brk segment overflow in thread #1: can't grow to 0x4810000
+==93748== brk segment overflow in thread #1: can't grow to 0x4821000
+==50512== brk segment overflow in thread #1: can't grow to 0x4820000
+==93748== brk segment overflow in thread #1: can't grow to 0x4821000
+==93748== brk segment overflow in thread #1: can't grow to 0x4821000
+==93762== brk segment overflow in thread #1: can't grow to 0x4802000
+==93756== brk segment overflow in thread #1: can't grow to 0x4810000
+==93755== brk segment overflow in thread #1: can't grow to 0x4802000
+==32371== brk segment overflow in thread #1: can't grow to 0x4802000
+==67219== brk segment overflow in thread #1: can't grow to 0x4801000
+==67216== brk segment overflow in thread #1: can't grow to 0x4810000
+==67224== brk segment overflow in thread #1: can't grow to 0x4831000
+==67226== brk segment overflow in thread #1: can't grow to 0x4801000
+==32366== brk segment overflow in thread #1: can't grow to 0x4810000
+==32378== brk segment overflow in thread #1: can't grow to 0x4802000
+==32374== brk segment overflow in thread #1: can't grow to 0x4831000
+==50504== brk segment overflow in thread #1: can't grow to 0x4831000
+==50505== brk segment overflow in thread #1: can't grow to 0x4801000
+==93763== brk segment overflow in thread #1: can't grow to 0x4831000
+==93749== brk segment overflow in thread #1: can't grow to 0x4810000
+==93759== brk segment overflow in thread #1: can't grow to 0x4810000
+==93751== brk segment overflow in thread #1: can't grow to 0x4831000
+==93753== brk segment overflow in thread #1: can't grow to 0x4831000
+==93761== brk segment overflow in thread #1: can't grow to 0x4810000
+==93754== brk segment overflow in thread #1: can't grow to 0x4831000
+==93750== brk segment overflow in thread #1: can't grow to 0x4810000
+==93752== brk segment overflow in thread #1: can't grow to 0x4810000
+==32381== brk segment overflow in thread #1: can't grow to 0x4810000
+==32379== brk segment overflow in thread #1: can't grow to 0x4831000
+==32372== brk segment overflow in thread #1: can't grow to 0x4810000
+==32375== brk segment overflow in thread #1: can't grow to 0x4810000
+==67231== brk segment overflow in thread #1: can't grow to 0x4810000
+==67227== brk segment overflow in thread #1: can't grow to 0x4831000
+==67221== brk segment overflow in thread #1: can't grow to 0x4810000
+==67225== brk segment overflow in thread #1: can't grow to 0x4810000
+==67223== brk segment overflow in thread #1: can't grow to 0x4831000
+==67218== brk segment overflow in thread #1: can't grow to 0x4831000
+==67222== brk segment overflow in thread #1: can't grow to 0x4810000
+==67217== brk segment overflow in thread #1: can't grow to 0x4831000
+==50515== brk segment overflow in thread #1: can't grow to 0x4810000
+==50508== brk segment overflow in thread #1: can't grow to 0x4810000
+==50509== brk segment overflow in thread #1: can't grow to 0x4831000
+==50506== brk segment overflow in thread #1: can't grow to 0x4810000
+==50511== brk segment overflow in thread #1: can't grow to 0x4810000
+==50517== brk segment overflow in thread #1: can't grow to 0x4810000
+==67230== brk segment overflow in thread #1: can't grow to 0x4831000
+==67228== brk segment overflow in thread #1: can't grow to 0x4810000
+==32367== brk segment overflow in thread #1: can't grow to 0x4831000
+==32376== brk segment overflow in thread #1: can't grow to 0x4810000
+==32373== brk segment overflow in thread #1: can't grow to 0x4831000
+==32370== brk segment overflow in thread #1: can't grow to 0x4831000
+==32380== brk segment overflow in thread #1: can't grow to 0x4831000
+==32369== brk segment overflow in thread #1: can't grow to 0x4810000
+==50507== brk segment overflow in thread #1: can't grow to 0x4831000
+==50514== brk segment overflow in thread #1: can't grow to 0x4831000
+==50516== brk segment overflow in thread #1: can't grow to 0x4831000
+==50518== brk segment overflow in thread #1: can't grow to 0x4810000
+==50513== brk segment overflow in thread #1: can't grow to 0x4831000
+==93758== brk segment overflow in thread #1: can't grow to 0x4831000
+==50519== brk segment overflow in thread #1: can't grow to 0x4821000
+==67229== brk segment overflow in thread #1: can't grow to 0x4821000
+==67220== brk segment overflow in thread #1: can't grow to 0x4821000
+==93760== brk segment overflow in thread #1: can't grow to 0x4831000
+==50510== brk segment overflow in thread #1: can't grow to 0x4821000
+==32368== brk segment overflow in thread #1: can't grow to 0x4821000
+==32377== brk segment overflow in thread #1: can't grow to 0x4821000
+==93757== brk segment overflow in thread #1: can't grow to 0x4821000
+==93748== brk segment overflow in thread #1: can't grow to 0x4821000
+==50512== brk segment overflow in thread #1: can't grow to 0x4820000
+==67216== brk segment overflow in thread #1: can't grow to 0x4810000
+==50504== brk segment overflow in thread #1: can't grow to 0x4831000
+==67224== brk segment overflow in thread #1: can't grow to 0x4831000
+==32374== brk segment overflow in thread #1: can't grow to 0x4831000
+==32366== brk segment overflow in thread #1: can't grow to 0x4810000
+==93748== brk segment overflow in thread #1: can't grow to 0x4821000
+==93756== brk segment overflow in thread #1: can't grow to 0x4810000
+==50512== brk segment overflow in thread #1: can't grow to 0x4820000
+==93748== brk segment overflow in thread #1: can't grow to 0x4821000
+==93748== brk segment overflow in thread #1: can't grow to 0x4821000
+==93755== brk segment overflow in thread #1: can't grow to 0x4820000
+==93762== brk segment overflow in thread #1: can't grow to 0x4820000
+==50505== brk segment overflow in thread #1: can't grow to 0x4820000
+==32371== brk segment overflow in thread #1: can't grow to 0x4820000
+==32378== brk segment overflow in thread #1: can't grow to 0x4820000
+==67219== brk segment overflow in thread #1: can't grow to 0x4820000
+==67226== brk segment overflow in thread #1: can't grow to 0x4820000
+==67216== brk segment overflow in thread #1: can't grow to 0x4810000
+==50504== brk segment overflow in thread #1: can't grow to 0x4831000
+==67224== brk segment overflow in thread #1: can't grow to 0x4831000
+==32366== brk segment overflow in thread #1: can't grow to 0x4810000
+==32374== brk segment overflow in thread #1: can't grow to 0x4831000
+==93756== brk segment overflow in thread #1: can't grow to 0x4810000
+==93748== brk segment overflow in thread #1: can't grow to 0x4821000
+==93758== brk segment overflow in thread #1: can't grow to 0x488a000
+==93752== brk segment overflow in thread #1: can't grow to 0x4869000
+==93753== brk segment overflow in thread #1: can't grow to 0x488a000
+==93750== brk segment overflow in thread #1: can't grow to 0x4869000
+==93756== brk segment overflow in thread #1: can't grow to 0x4869000
+==93759== brk segment overflow in thread #1: can't grow to 0x4869000
+==93761== brk segment overflow in thread #1: can't grow to 0x4869000
+==93757== brk segment overflow in thread #1: can't grow to 0x487a000
+==93763== brk segment overflow in thread #1: can't grow to 0x488a000
+==93751== brk segment overflow in thread #1: can't grow to 0x488a000
+==93754== brk segment overflow in thread #1: can't grow to 0x488a000
+==93749== brk segment overflow in thread #1: can't grow to 0x4869000
+==32373== brk segment overflow in thread #1: can't grow to 0x488a000
+==32381== brk segment overflow in thread #1: can't grow to 0x4869000
+==32370== brk segment overflow in thread #1: can't grow to 0x488a000
+==32379== brk segment overflow in thread #1: can't grow to 0x488a000
+==32376== brk segment overflow in thread #1: can't grow to 0x4869000
+==32380== brk segment overflow in thread #1: can't grow to 0x488a000
+==32375== brk segment overflow in thread #1: can't grow to 0x4869000
+==32377== brk segment overflow in thread #1: can't grow to 0x487a000
+==32372== brk segment overflow in thread #1: can't grow to 0x4869000
+==32369== brk segment overflow in thread #1: can't grow to 0x4869000
+==32368== brk segment overflow in thread #1: can't grow to 0x487a000
+==32367== brk segment overflow in thread #1: can't grow to 0x488a000
+==32366== brk segment overflow in thread #1: can't grow to 0x4869000
+==67223== brk segment overflow in thread #1: can't grow to 0x488a000
+==67220== brk segment overflow in thread #1: can't grow to 0x487a000
+==67230== brk segment overflow in thread #1: can't grow to 0x488a000
+==67218== brk segment overflow in thread #1: can't grow to 0x488a000
+==67227== brk segment overflow in thread #1: can't grow to 0x488a000
+==67221== brk segment overflow in thread #1: can't grow to 0x4869000
+==67229== brk segment overflow in thread #1: can't grow to 0x487a000
+==67231== brk segment overflow in thread #1: can't grow to 0x4869000
+==67225== brk segment overflow in thread #1: can't grow to 0x4869000
+==67228== brk segment overflow in thread #1: can't grow to 0x4869000
+==67222== brk segment overflow in thread #1: can't grow to 0x4869000
+==67216== brk segment overflow in thread #1: can't grow to 0x4869000
+==67217== brk segment overflow in thread #1: can't grow to 0x488a000
+==50517== brk segment overflow in thread #1: can't grow to 0x4869000
+==50519== brk segment overflow in thread #1: can't grow to 0x487a000
+==50509== brk segment overflow in thread #1: can't grow to 0x488a000
+==50516== brk segment overflow in thread #1: can't grow to 0x488a000
+==50511== brk segment overflow in thread #1: can't grow to 0x4869000
+==93760== brk segment overflow in thread #1: can't grow to 0x488a000
+==50508== brk segment overflow in thread #1: can't grow to 0x4869000
+==50518== brk segment overflow in thread #1: can't grow to 0x4869000
+==50515== brk segment overflow in thread #1: can't grow to 0x4869000
+==50510== brk segment overflow in thread #1: can't grow to 0x487a000
+==50514== brk segment overflow in thread #1: can't grow to 0x488a000
+==50507== brk segment overflow in thread #1: can't grow to 0x488a000
+==50506== brk segment overflow in thread #1: can't grow to 0x4869000
+==50513== brk segment overflow in thread #1: can't grow to 0x488a000
+==50512== brk segment overflow in thread #1: can't grow to 0x4879000
+==67224== brk segment overflow in thread #1: can't grow to 0x4827000
+==32374== brk segment overflow in thread #1: can't grow to 0x4827000
+==50504== brk segment overflow in thread #1: can't grow to 0x4827000
+==32378== brk segment overflow in thread #1: can't grow to 0x4816000
+==93755== brk segment overflow in thread #1: can't grow to 0x4816000
+==50505== brk segment overflow in thread #1: can't grow to 0x4816000
+==67226== brk segment overflow in thread #1: can't grow to 0x4816000
+==93762== brk segment overflow in thread #1: can't grow to 0x4816000
+==32379== brk segment overflow in thread #1: can't grow to 0x4827000
+==67219== brk segment overflow in thread #1: can't grow to 0x4816000
+==32371== brk segment overflow in thread #1: can't grow to 0x4816000
+==50512== brk segment overflow in thread #1: can't grow to 0x4816000
+==67227== brk segment overflow in thread #1: can't grow to 0x4827000
+==67218== brk segment overflow in thread #1: can't grow to 0x4827000
+==93763== brk segment overflow in thread #1: can't grow to 0x4827000
+==93754== brk segment overflow in thread #1: can't grow to 0x4827000
+==50513== brk segment overflow in thread #1: can't grow to 0x4827000
+==32370== brk segment overflow in thread #1: can't grow to 0x4827000
+==32367== brk segment overflow in thread #1: can't grow to 0x4827000
+==93758== brk segment overflow in thread #1: can't grow to 0x4827000
+==32380== brk segment overflow in thread #1: can't grow to 0x4827000
+==67217== brk segment overflow in thread #1: can't grow to 0x4827000
+==32373== brk segment overflow in thread #1: can't grow to 0x4827000
+==50504== brk segment overflow in thread #1: can't grow to 0x4827000
+==67230== brk segment overflow in thread #1: can't grow to 0x4827000
+==67223== brk segment overflow in thread #1: can't grow to 0x4827000
+==93755== brk segment overflow in thread #1: can't grow to 0x4816000
+==32378== brk segment overflow in thread #1: can't grow to 0x4816000
+==93760== brk segment overflow in thread #1: can't grow to 0x4827000
+==50505== brk segment overflow in thread #1: can't grow to 0x4816000
+==50514== brk segment overflow in thread #1: can't grow to 0x4827000
+==93762== brk segment overflow in thread #1: can't grow to 0x4816000
+==67226== brk segment overflow in thread #1: can't grow to 0x4816000
+==50507== brk segment overflow in thread #1: can't grow to 0x4827000
+==67219== brk segment overflow in thread #1: can't grow to 0x4816000
+==32371== brk segment overflow in thread #1: can't grow to 0x4816000
+==50509== brk segment overflow in thread #1: can't grow to 0x4827000
+==93751== brk segment overflow in thread #1: can't grow to 0x4827000
+==50516== brk segment overflow in thread #1: can't grow to 0x4827000
+==93753== brk segment overflow in thread #1: can't grow to 0x4827000
+==50512== brk segment overflow in thread #1: can't grow to 0x4816000
+==93748== brk segment overflow in thread #1: can't grow to 0x4817000
+==67224== brk segment overflow in thread #1: can't grow to 0x4813000
+==32374== brk segment overflow in thread #1: can't grow to 0x4813000
+==32366== brk segment overflow in thread #1: can't grow to 0x4806000
+==67216== brk segment overflow in thread #1: can't grow to 0x4806000
+==50504== brk segment overflow in thread #1: can't grow to 0x4827000
+==93756== brk segment overflow in thread #1: can't grow to 0x4806000
+==93761== brk segment overflow in thread #1: can't grow to 0x4806000
+==32372== brk segment overflow in thread #1: can't grow to 0x4806000
+==50508== brk segment overflow in thread #1: can't grow to 0x4806000
+==50506== brk segment overflow in thread #1: can't grow to 0x4806000
+==50512== brk segment overflow in thread #1: can't grow to 0x4816000
+==32381== brk segment overflow in thread #1: can't grow to 0x4806000
+==32375== brk segment overflow in thread #1: can't grow to 0x4806000
+==93752== brk segment overflow in thread #1: can't grow to 0x4806000
+==93750== brk segment overflow in thread #1: can't grow to 0x4806000
+==93759== brk segment overflow in thread #1: can't grow to 0x4806000
+==50515== brk segment overflow in thread #1: can't grow to 0x4806000
+==32374== brk segment overflow in thread #1: can't grow to 0x4827000
+==67231== brk segment overflow in thread #1: can't grow to 0x4806000
+==67225== brk segment overflow in thread #1: can't grow to 0x4806000
+==67222== brk segment overflow in thread #1: can't grow to 0x4806000
+==67224== brk segment overflow in thread #1: can't grow to 0x4827000
+==50517== brk segment overflow in thread #1: can't grow to 0x4806000
+==93763== brk segment overflow in thread #1: can't grow to 0x4827000
+==32379== brk segment overflow in thread #1: can't grow to 0x4827000
+==67227== brk segment overflow in thread #1: can't grow to 0x4827000
+==50513== brk segment overflow in thread #1: can't grow to 0x4827000
+==93754== brk segment overflow in thread #1: can't grow to 0x4827000
+==32370== brk segment overflow in thread #1: can't grow to 0x4827000
+==67218== brk segment overflow in thread #1: can't grow to 0x4827000
+==67219== brk segment overflow in thread #1: can't grow to 0x4816000
+==93762== brk segment overflow in thread #1: can't grow to 0x4816000
+==32378== brk segment overflow in thread #1: can't grow to 0x4816000
+==50505== brk segment overflow in thread #1: can't grow to 0x4816000
+==67226== brk segment overflow in thread #1: can't grow to 0x4816000
+==93755== brk segment overflow in thread #1: can't grow to 0x4816000
+==32371== brk segment overflow in thread #1: can't grow to 0x4816000
+==50512== brk segment overflow in thread #1: can't grow to 0x4802000
+==93758== 
+==93749== 
+==93751== 
+==93754== 
+==93757== 
+==93750== 
+==93753== 
+==93763== 
+==93760== 
+==93761== 
+==93762== 
+==93755== 
+==93752== 
+==93759== 
+==93756== 
+==93748== 
+==32381== 
+==32366== 
+==32375== 
+==32374== 
+==32372== 
+==32376== 
+==32370== 
+==32367== 
+==32379== 
+==32373== 
+==32380== 
+==32368== 
+==32371== 
+==32369== 
+==32378== 
+==32377== 
+==67219== 
+==67231== 
+==67218== 
+==67216== 
+==67217== 
+==67225== 
+==67223== 
+==67220== 
+==67229== 
+==67221== 
+==67230== 
+==67222== 
+==67226== 
+==67224== 
+==67228== 
+==67227== 
+==50517== 
+==50513== 
+==50514== 
+==50516== 
+==50515== 
+==50505== 
+==50508== 
+==50510== 
+==50512== 
+==50504== 
+==50507== 
+==50511== 
+==50506== 
+==50509== 
+==50519== 
+==50518== 
+==93757== Events    : Ir
+==93757== Collected : 23207621915
+==93757== 
+==93757== I   refs:      23,207,621,915
+==93749== Events    : Ir
+==93749== Collected : 23308161478
+==93749== 
+==93749== I   refs:      23,308,161,478
+==93751== Events    : Ir
+==93751== Collected : 23230728884
+==93751== 
+==93751== I   refs:      23,230,728,884
+==93753== Events    : Ir
+==93753== Collected : 23234046074
+==93753== 
+==93753== I   refs:      23,234,046,074
+==93761== Events    : Ir
+==93761== Collected : 22917670119
+==93761== 
+==93761== I   refs:      22,917,670,119
+==93763== Events    : Ir
+==93763== Collected : 23294791703
+==93763== 
+==93763== I   refs:      23,294,791,703
+==93754== Events    : Ir
+==93754== Collected : 23414218878
+==93754== 
+==93754== I   refs:      23,414,218,878
+==93759== Events    : Ir
+==93759== Collected : 23163711373
+==93759== 
+==93755== Events    : Ir
+==93755== Collected : 23710328624
+==93755== 
+==93755== I   refs:      23,710,328,624
+==93759== I   refs:      23,163,711,373
+==93748== Events    : Ir
+==93748== Collected : 40744608845
+==93748== 
+==93748== I   refs:      40,744,608,845
+==93760== Events    : Ir
+==93760== Collected : 23051897069
+==93760== 
+==93760== I   refs:      23,051,897,069
+==93752== Events    : Ir
+==93752== Collected : 22745959635
+==93752== 
+==93752== I   refs:      22,745,959,635
+==93762== Events    : Ir
+==93762== Collected : 23188237958
+==93762== 
+==93762== I   refs:      23,188,237,958
+==93750== Events    : Ir
+==93750== Collected : 23035812143
+==93750== 
+==93750== I   refs:      23,035,812,143
+==32369== Events    : Ir
+==32376== Events    : Ir
+==32376== Collected : 22803525105
+==32376== 
+==32376== I   refs:      22,803,525,105
+==32369== Collected : 23137053820
+==32369== 
+==32369== I   refs:      23,137,053,820
+==67220== Events    : Ir
+==67221== Events    : Ir
+==67221== Collected : 23179085180
+==67221== 
+==67221== I   refs:      23,179,085,180
+==67220== Collected : 22994275134
+==67220== 
+==67220== I   refs:      22,994,275,134
+==50510== Events    : Ir
+==50510== Collected : 23053937838
+==50510== 
+==50510== I   refs:      23,053,937,838
+==32368== Events    : Ir
+==32368== Collected : 23468574452
+==32368== 
+==32368== I   refs:      23,468,574,452
+==50507== Events    : Ir
+==50507== Collected : 23338639236
+==50507== 
+==50507== I   refs:      23,338,639,236
+==67228== Events    : Ir
+==67228== Collected : 23184030860
+==67228== 
+==67228== I   refs:      23,184,030,860
+==32375== Events    : Ir
+==32375== Collected : 23224152106
+==32375== 
+==32375== I   refs:      23,224,152,106
+==32371== Events    : Ir
+==32371== Collected : 23081229959
+==32371== 
+==32373== Events    : Ir
+==32373== Collected : 23446910765
+==32373== 
+==32373== I   refs:      23,446,910,765
+==32371== I   refs:      23,081,229,959
+==32379== Events    : Ir
+==32379== Collected : 23262567989
+==32379== 
+==32379== I   refs:      23,262,567,989
+==32378== Events    : Ir
+==32378== Collected : 23436245632
+==32378== 
+==32378== I   refs:      23,436,245,632
+==50518== Events    : Ir
+==93758== Events    : Ir
+==93758== Collected : 23022430016
+==93758== 
+==93758== I   refs:      23,022,430,016
+==50518== Collected : 22766672730
+==50518== 
+==50518== I   refs:      22,766,672,730
+==50513== Events    : Ir
+==50513== Collected : 23553044203
+==50513== 
+==50513== I   refs:      23,553,044,203
+==32370== Events    : Ir
+==32370== Collected : 23310409292
+==32377== Events    : Ir
+==32377== Collected : 23162690146
+==32377== 
+==32377== I   refs:      23,162,690,146
+==32370== 
+==32370== I   refs:      23,310,409,292
+==50511== Events    : Ir
+==50511== Collected : 23328332109
+==50511== 
+==50511== I   refs:      23,328,332,109
+==67219== Events    : Ir
+==67219== Collected : 23768269052
+==67219== 
+==67219== I   refs:      23,768,269,052
+==50516== Events    : Ir
+==50516== Collected : 22836057216
+==67218== Events    : Ir
+==50516== 
+==50516== I   refs:      22,836,057,216
+==67218== Collected : 23585998743
+==67218== 
+==67218== I   refs:      23,585,998,743
+==67217== Events    : Ir
+==67229== Events    : Ir
+==67229== Collected : 22996366591
+==67229== 
+==32367== Events    : Ir
+==32367== Collected : 23595163543
+==67229== I   refs:      22,996,366,591
+==67217== Collected : 23146924663
+==67217== 
+==32367== 
+==32367== I   refs:      23,595,163,543
+==67217== I   refs:      23,146,924,663
+==67223== Events    : Ir
+==67223== Collected : 23281244051
+==67223== 
+==67223== I   refs:      23,281,244,051
+==67231== Events    : Ir
+==67231== Collected : 23232903529
+==67231== 
+==67231== I   refs:      23,232,903,529
+==67225== Events    : Ir
+==67225== Collected : 23237739739
+==67225== 
+==67225== I   refs:      23,237,739,739
+==32374== Events    : Ir
+==32374== Collected : 28185577538
+==32374== 
+==32374== I   refs:      28,185,577,538
+==67222== Events    : Ir
+==67222== Collected : 23205188831
+==67222== 
+==67222== I   refs:      23,205,188,831
+==50519== Events    : Ir
+==67224== Events    : Ir
+==67226== Events    : Ir
+==67226== Collected : 23550343109
+==67226== 
+==67226== I   refs:      23,550,343,109
+==50519== Collected : 23262132342
+==50519== 
+==50519== I   refs:      23,262,132,342
+==67224== Collected : 28215871403
+==67224== 
+==67224== I   refs:      28,215,871,403
+==50517== Events    : Ir
+==50515== Events    : Ir
+==50517== Collected : 23134115456
+==50517== 
+==50517== I   refs:      23,134,115,456
+==50515== Collected : 23267346999
+==50506== Events    : Ir
+==50515== 
+==50515== I   refs:      23,267,346,999
+==50506== Collected : 23332744632
+==50506== 
+==50506== I   refs:      23,332,744,632
+==67230== Events    : Ir
+==67230== Collected : 22957924358
+==67230== 
+==67230== I   refs:      22,957,924,358
+==32380== Events    : Ir
+==32380== Collected : 22890542304
+==32380== 
+==32380== I   refs:      22,890,542,304
+==50505== Events    : Ir
+==50505== Collected : 23597853551
+==50505== 
+==50505== I   refs:      23,597,853,551
+==32381== Events    : Ir
+==32381== Collected : 23132099510
+==32381== 
+==32381== I   refs:      23,132,099,510
+==32366== Events    : Ir
+==32366== Collected : 28192337066
+==32366== 
+==32366== I   refs:      28,192,337,066
+==50508== Events    : Ir
+==50508== Collected : 23100457628
+==50508== 
+==50508== I   refs:      23,100,457,628
+==50514== Events    : Ir
+==50514== Collected : 22959520102
+==50514== 
+==50514== I   refs:      22,959,520,102
+==67216== Events    : Ir
+==67216== Collected : 28005365205
+==67216== 
+==67216== I   refs:      28,005,365,205
+==32372== Events    : Ir
+==32372== Collected : 23233698180
+==32372== 
+==32372== I   refs:      23,233,698,180
+==50512== Events    : Ir
+==50512== Collected : 28286831034
+==50512== 
+==50512== I   refs:      28,286,831,034
+==50504== Events    : Ir
+==50504== Collected : 28050460240
+==50504== 
+==50504== I   refs:      28,050,460,240
+==67227== Events    : Ir
+==67227== Collected : 23517495931
+==67227== 
+==67227== I   refs:      23,517,495,931
+==50509== Events    : Ir
+==50509== Collected : 23289907262
+==50509== 
+==50509== I   refs:      23,289,907,262
+==93756== Events    : Ir
+==93756== Collected : 28006221189
+==93756== 
+==93756== I   refs:      28,006,221,189
+
+real	2m57.767s
+user	0m0.735s
+sys	0m0.805s
