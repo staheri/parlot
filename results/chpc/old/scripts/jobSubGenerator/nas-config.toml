@@ -1,0 +1,133 @@
+# Author: Saeed Taheri, University of Utah, 2017
+# Code: nas-config.toml
+# Description: Configuration file for running PINtool and other similar tools for Related Tools Evaluation ( ON CHPC)
+
+# MetaDataFormat = "toml"
+
+[benchmarks]
+	[benchmarks.nas]
+		path="$HOME/nas/NPB3.3-MPI/bin/"
+		
+
+[compilers]
+	[compilers.mpicc]
+		module=[]
+		env_var=[]		
+	[compilers.tau]
+		module=["tau"]
+		env_var=["TAU_OPTIONS=-optCompInst","TAU_TRACE=1"]
+	[compilers.scorep]
+		module=[]
+		env_var=["SCOREP_ENABLE_TRACING=1"]				
+[nasflags]
+	[nasflags.o1]
+[nasapps]
+	[nasapps.bt]
+		file="bt.C"
+	[nasapps.cg]
+		file="cg.C"
+	[nasapps.ep]
+		file="ep.C"
+	[nasapps.ft]
+		file="ft.C"
+	[nasapps.is]
+		file="is.C"
+	[nasapps.lu]
+		file="lu.C"
+	[nasapps.mg]
+		file="mg.C"
+	[nasapps.sp]
+		file="sp.C"
+[topo]
+	[topo.1]
+		n_node="1"
+		n_task="16"
+	[topo.2]
+		n_node="4"
+		n_task="64"
+	[topo.3]
+		n_node="16"
+		n_task="256"
+	[topo.4]
+		n_node="64"
+		n_task="1024"
+[instool]
+        [instool.orig]
+                command="time mpirun -np $SLURM_NTASKS"
+                module=[]
+                env_var=[]
+                needed_files=[]
+                path=[]
+	[instool.wpinAll]
+		command="time mpirun -np $SLURM_NTASKS pin -t WDBGpin17allimages.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/WDBG17all/obj-intel64/WDBGpin17allimages.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.wpinMain]
+		command="time mpirun -np $SLURM_NTASKS pin -t WDBGpin17mainimage.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/WDBG17main/obj-intel64/WDBGpin17mainimage.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.pinAll]
+		command="time mpirun -np $SLURM_NTASKS pin -t DBGpin17allimages.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/DBG17all/obj-intel64/DBGpin17allimages.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.pinMain]
+		command="time mpirun -np $SLURM_NTASKS pin -t DBGpin17mainimage.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/DBG17main/obj-intel64/DBGpin17mainimage.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.hpinAll]
+		command="time mpirun -np $SLURM_NTASKS pin -t HDBGpin17allimages.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/HDBG17all/obj-intel64/HDBGpin17allimages.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.hpinMain]
+		command="time mpirun -np $SLURM_NTASKS pin -t HDBGpin17mainimage.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/HDBG17main/obj-intel64/HDBGpin17mainimage.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.npinAll]
+	        command="time mpirun -np $SLURM_NTASKS pin -t NDBGpin17allimages.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/NDBG17all/obj-intel64/NDBGpin17allimages.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.npinMain]
+		command="time mpirun -np $SLURM_NTASKS pin -t NDBGpin17mainimage.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/NDBG17main/obj-intel64/NDBGpin17mainimage.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.devParLotAll]
+		command="time mpirun -np $SLURM_NTASKS pin -t devParLotallimages.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/devParLotall/obj-intel64/devParLotallimages.so"]
+		path=["$HOME/pintool/newpin"]
+	[instool.devParLotMain]
+		command="time mpirun -np $SLURM_NTASKS pin -t devParLotmainimage.so --"
+		module=[]
+		env_var=[]
+		needed_files=["$HOME/pintool/newpin/source/tools/devParLotmain/obj-intel64/devParLotmainimage.so"]
+		path=["$HOME/pintool/newpin"]
+        [instool.callgrind]
+                command="time mpirun -np $SLURM_NTASKS valgrind --tool=callgrind"
+                module=[]
+                env_var=[]
+                needed_files=[]
+                path=["$HOME/valgrind/bin"]
+        [instool.tau_exec]
+                command="time mpirun -np $SLURM_NTASKS tau_exec -ebs"
+                module=["tau"]
+                env_var=["TAU_OPTIONS=-optCompInst","TAU_TRACE=1"]
+                needed_files=[]
+                path=[]
+

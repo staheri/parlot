@@ -1,0 +1,45 @@
+
+=== OTF2-PRINT ===
+=== Events =====================================================================
+Event                               Location            Timestamp  Attributes
+--------------------------------------------------------------------------------
+ENTER                                      0    22725752375281480  Region: "main" <267>
+ENTER                                      0    22725752375432416  Region: "MPI_Init" <165>
+ENTER                                      2    22725752375707032  Region: "main" <267>
+ENTER                                      2    22725752375817744  Region: "MPI_Init" <165>
+ENTER                                      1    22725752376192352  Region: "main" <267>
+ENTER                                      1    22725752376294824  Region: "MPI_Init" <165>
+ENTER                                      3    22725752377867144  Region: "main" <267>
+ENTER                                      3    22725752377974264  Region: "MPI_Init" <165>
+LEAVE                                      1    22725753040072124  Region: "MPI_Init" <165>
+LEAVE                                      2    22725753040100192  Region: "MPI_Init" <165>
+LEAVE                                      0    22725753040149344  Region: "MPI_Init" <165>
+LEAVE                                      3    22725753040149784  Region: "MPI_Init" <165>
+ENTER                                      1    22725753040179000  Region: "MPI_Comm_size" <52>
+LEAVE                                      1    22725753040189068  Region: "MPI_Comm_size" <52>
+ENTER                                      1    22725753040189808  Region: "MPI_Comm_rank" <45>
+LEAVE                                      1    22725753040190992  Region: "MPI_Comm_rank" <45>
+ENTER                                      2    22725753040202280  Region: "MPI_Comm_size" <52>
+LEAVE                                      2    22725753040206704  Region: "MPI_Comm_size" <52>
+ENTER                                      2    22725753040207408  Region: "MPI_Comm_rank" <45>
+LEAVE                                      2    22725753040208544  Region: "MPI_Comm_rank" <45>
+ENTER                                      1    22725753040236744  Region: "MPI_Finalize" <121>
+ENTER                                      2    22725753040239432  Region: "MPI_Finalize" <121>
+ENTER                                      3    22725753040261064  Region: "MPI_Comm_size" <52>
+LEAVE                                      3    22725753040264952  Region: "MPI_Comm_size" <52>
+ENTER                                      3    22725753040265648  Region: "MPI_Comm_rank" <45>
+LEAVE                                      3    22725753040266872  Region: "MPI_Comm_rank" <45>
+ENTER                                      0    22725753040268052  Region: "MPI_Comm_size" <52>
+LEAVE                                      0    22725753040272120  Region: "MPI_Comm_size" <52>
+ENTER                                      0    22725753040272888  Region: "MPI_Comm_rank" <45>
+LEAVE                                      0    22725753040274132  Region: "MPI_Comm_rank" <45>
+ENTER                                      3    22725753040293096  Region: "MPI_Finalize" <121>
+ENTER                                      0    22725753040300348  Region: "MPI_Finalize" <121>
+LEAVE                                      0    22725753040354912  Region: "MPI_Finalize" <121>
+LEAVE                                      2    22725753040355336  Region: "MPI_Finalize" <121>
+LEAVE                                      1    22725753040355528  Region: "MPI_Finalize" <121>
+LEAVE                                      3    22725753040356424  Region: "MPI_Finalize" <121>
+LEAVE                                      0    22725753040357456  Region: "main" <267>
+LEAVE                                      2    22725753040357576  Region: "main" <267>
+LEAVE                                      1    22725753040358136  Region: "main" <267>
+LEAVE                                      3    22725753040358432  Region: "main" <267>

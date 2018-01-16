@@ -1,0 +1,196 @@
+# Autho: Saeed Taheri, University of Utah, 2017
+# Code: nas-config.toml
+# Description: Configuration file for running PINtool and other similar tools for Related Tools Evaluation
+
+# MetaDataFormat = "toml"
+
+
+
+[server]
+	[server.chpc]
+		#options=["-A ganesh-kp","-p soc-kp","--mem=65536","-C \"c16\" "]
+		options=["-A soc-kp","-p soc-kp"]
+		ptool_root="/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/source/tools"
+		pin_root="/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/"
+		local_storage="/scratch/local/"
+		workspace="$SCRATCH/workspace/"
+		callgrind_root="/uufs/chpc.utah.edu/common/home/u0993036/valgrind/bin"
+		nas_root="/uufs/chpc.utah.edu/common/home/u0993036/nas/NPB3.3-MPI/bin"
+		command="mpirun -np $SLURM_NTASKS "
+	[server.stampede]
+		options=[]
+		pin_root=[]
+		workspace=[]
+		callgrind_root=[]
+		nas_root=[]
+		command=[]
+		command_options=[]
+	[server.psc]
+		options=["-p RM"]
+		ptool_root="$HOME/pintool/pin3.5/source/tools"
+		pin_root="$HOME/pintool/pin3.5/"
+		local_storage="$LOCAL"
+		workspace="/pylon2/cc560up/staheri/workspace"
+		callgrind_root="$HOME/valgrind/bin"
+		nas_root="$HOME/pintool/applications/nas/bin"
+		command="mpirun -np $SLURM_NTASKS "
+
+[benchmarks]
+	[benchmarks.nas]
+		path="$NAS_ROOT"
+
+[compilers]
+	[compilers.mpicc]
+		module=[]
+		env_var=[]		
+	[compilers.tau]
+		module=["tau"]
+		env_var=["TAU_OPTIONS=-optCompInst","TAU_TRACE=1"]
+	[compilers.scorep]
+		module=[]
+		env_var=["SCOREP_ENABLE_TRACING=1"]				
+		
+[nasapps]
+	[nasapps.bt]
+		name="bt"
+	[nasapps.cg]
+		name="cg"
+	[nasapps.ep]
+		name="ep"
+	[nasapps.ft]
+		name="ft"
+	[nasapps.is]
+		name="is"
+	[nasapps.lu]
+		name="lu"
+	[nasapps.mg]
+		name="mg"
+	[nasapps.sp]
+		name="sp"
+		
+[topo]
+	[topo.1]
+		n_node="1"
+		n_task="16"
+	[topo.2]
+		n_node="4"
+		n_task="64"
+	[topo.3]
+		n_node="16"
+		n_task="256"
+	[topo.4]
+		n_node="64"
+		n_task="1024"
+
+[nasflags]
+	[nasflags.o1]
+	[nasflags.o2]
+	[nasflags.o3]
+	[nasflags.wo]
+
+[nasclasses]
+	[nasclasses.A]
+	[nasclasses.B]
+	[nasclasses.C]
+	[nasclasses.W]
+	[nasclasses.D]
+	
+	
+	
+[instool]
+    [instool.orig]
+            command="time $TCMD"
+            module=[]
+            env_var=[]
+            needed_files=[]
+            path=[]
+    [instool.pinMain]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/DBG17main/obj-intel64/DBGpin17mainimage.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/DBG17main/obj-intel64/DBGpin17mainimage.so"]
+            path=["$PIN_ROOT"]
+    [instool.pinAll]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/DBG17all/obj-intel64/DBGpin17allimages.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/DBG17all/obj-intel64/DBGpin17allimages.so"]
+            path=["$PIN_ROOT"]
+    [instool.wpinMain]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/WDBG17main/obj-intel64/WDBGpin17mainimage.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/WDBG17main/obj-intel64/WDBGpin17mainimage.so"]
+            path=["$PIN_ROOT"]
+    [instool.wpinAll]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/WDBG17all/obj-intel64/WDBGpin17allimages.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/WDBG17all/obj-intel64/WDBGpin17allimages.so"]
+            path=["$PIN_ROOT"]
+   [instool.apinMain]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/ADBG17main/obj-intel64/ADBGpin17mainimage.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/ADBG17main/obj-intel64/ADBGpin17mainimage.so"]
+            path=["$PIN_ROOT"]
+    [instool.apinAll]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/ADBG17all/obj-intel64/ADBGpin17allimages.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/ADBG17all/obj-intel64/ADBGpin17allimages.so"]
+            path=["$PIN_ROOT"]
+    [instool.npinMain]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/NDBG17main/obj-intel64/NDBGpin17mainimage.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/NDBG17main/obj-intel64/NDBGpin17mainimage.so"]
+            path=["$PIN_ROOT"]
+    [instool.npinAll]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/NDBG17all/obj-intel64/NDBGpin17allimages.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/NDBG17all/obj-intel64/NDBGpin17allimages.so"]
+            path=["$PIN_ROOT"]
+	[instool.hpinMain]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/HDBG17main/obj-intel64/HDBGpin17mainimage.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/HDBG17main/obj-intel64/HDBGpin17mainimage.so"]
+            path=["$PIN_ROOT"]
+	[instool.hpinAll]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/HDBG17all/obj-intel64/HDBGpin17allimages.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/HDBG17all/obj-intel64/HDBGpin17allimages.so"]
+            path=["$PIN_ROOT"]
+	[instool.dpinMain]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/DDBG17main/obj-intel64/DDBGpin17mainimage.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/DDBG17main/obj-intel64/DDBGpin17mainimage.so"]
+            path=["$PIN_ROOT"]
+	[instool.dpinAll]
+            command="time $TCMD $PIN_ROOT/pin -t $PTOOL_ROOT/DDBG17all/obj-intel64/DDBGpin17allimages.so --"
+            module=[]
+            env_var=[]
+            needed_files=["$PTOOL_ROOT/DDBG17all/obj-intel64/DDBGpin17allimages.so"]
+            path=["$PIN_ROOT"]
+	[instool.callgrind]
+            command="time $TCMD valgrind --tool=callgrind"
+            module=[]
+            env_var=[]
+            needed_files=[]
+            path=["$CG_ROOT"]
+	[instool.hcallgrind]
+            command="time $TCMD valgrind --tool=callgrind --callgrind-out-file=$LOCAL_STORAGE/callgrind.%q{SLURM_NODEID}.%p"
+            module=[]
+            env_var=[]
+            needed_files=[]
+            path=["$CG_ROOT"]
+	[instool.tau_exec]
+            command="time $TCMD tau_exec -ebs"
+            module=["tau"]
+            env_var=["TAU_OPTIONS=-optCompInst","TAU_TRACE=1"]
+            needed_files=[]
+            path=[]

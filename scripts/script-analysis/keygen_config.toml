@@ -1,0 +1,50 @@
+# Autho: Saeed Taheri, University of Utah, 2017
+# Code: keyGen-config.toml
+# Description: Configuration file for running PINtool and other similar tools for Related Tools Evaluation
+
+# MetaDataFormat = "toml"
+
+
+[benchmarks]
+	[benchmarks.nas]
+	
+[servers]
+	[servers.psc]
+	
+[tools]
+	[tools.pinMain]
+	[tools.pinAll]
+	[tools.npinMain]
+	[tools.npinAll]
+	[tools.dpinMain]
+	[tools.dpinAll]
+	[tools.wpinMain]
+	[tools.wpinAll]
+	[tools.orig]
+	[tools.callgrind]
+
+[optFlags]
+	[optFlags.o1]
+
+[nasApps]
+	[nasApps.bt]
+	[nasApps.cg]
+	[nasApps.ep]
+	[nasApps.ft]
+	[nasApps.is]
+	[nasApps.lu]
+	[nasApps.mg]
+	[nasApps.sp]
+
+[compilers]
+	[compilers.mpicc]
+	
+[topo]
+	[topo.1]
+	[topo.4]
+	[topo.16]
+	[topo.64]
+
+[nasClasses]
+	[nasClasses.B]
+	[nasClasses.C]

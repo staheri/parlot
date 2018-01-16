@@ -1,0 +1,24 @@
+
+Function Stack                  Module           CPU Time:Total  CPU Time:Self
+------------------------------  ---------------  --------------  -------------
+Total                           [Unknown]        100%            0
+ __libc_start_main              libc-2.12.so     100%            0
+  main                          hello            100%            0
+   PMPI_Init                    libmpi.so.12.0   100%            0.020
+    fgets                       libc-2.3.4.so    25.0%           0
+     _IO_getline_info           libc-2.3.4.so    25.0%           0
+      _IO_default_uflow         libc-2.3.4.so    25.0%           0
+       _IO_file_underflow       libc-2.3.4.so    25.0%           0
+        _IO_file_read           libc-2.3.4.so    25.0%           0
+         read                   libc-2.3.4.so    25.0%           0.010
+    ibv_get_device_list         libibverbs.so.1  25.0%           0
+     func@0x7b80                libibverbs.so.1  25.0%           0
+      func@0x7850               libibverbs.so.1  25.0%           0
+       func@0x7790              libibverbs.so.1  25.0%           0
+        dlopen                  libdl-2.12.so    25.0%           0
+         fgets                  libc-2.3.4.so    25.0%           0
+          _IO_getline_info      libc-2.3.4.so    25.0%           0
+           _IO_default_uflow    libc-2.3.4.so    25.0%           0
+            _IO_file_underflow  libc-2.3.4.so    25.0%           0
+             _IO_file_read      libc-2.3.4.so    25.0%           0
+              read              libc-2.3.4.so    25.0%           0.010

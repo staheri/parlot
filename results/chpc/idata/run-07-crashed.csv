@@ -1,0 +1,22 @@
+Output Crashes
+chpc.callgrind.o1.mpicc.nas.bt.A.1.1
+chpc.callgrind.o1.mpicc.nas.bt.A.4.1
+chpc.callgrind.o1.mpicc.nas.bt.B.4.1
+chpc.callgrind.o1.mpicc.nas.bt.C.4.1
+chpc.callgrind.o1.mpicc.nas.cg.A.4.1
+chpc.callgrind.o1.mpicc.nas.cg.B.4.1
+chpc.callgrind.o1.mpicc.nas.cg.C.4.1
+chpc.wpinMain.o1.mpicc.nas.bt.A.4.1
+chpc.wpinMain.o1.mpicc.nas.bt.B.4.1
+chpc.wpinMain.o1.mpicc.nas.bt.C.4.1
+chpc.wpinMain.o1.mpicc.nas.cg.A.4.1
+chpc.wpinMain.o1.mpicc.nas.cg.B.4.1
+chpc.wpinMain.o1.mpicc.nas.cg.C.4.1
+chpc.wpinMain.o1.mpicc.nas.ep.A.4.1
+chpc.wpinMain.o1.mpicc.nas.ep.B.4.1
+App Out Crashes
+chpc.wpinMain.o1.mpicc.nas.bt.A.4.1
+chpc.wpinMain.o1.mpicc.nas.bt.C.4.1
+chpc.wpinMain.o1.mpicc.nas.cg.A.4.1
+chpc.wpinMain.o1.mpicc.nas.cg.C.4.1
+chpc.wpinMain.o1.mpicc.nas.ep.B.4.1

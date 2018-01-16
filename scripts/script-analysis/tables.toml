@@ -1,0 +1,127 @@
+# Autho: Saeed Taheri, University of Utah, 2017
+# Code: tables.toml
+# Description: key of needed tables
+
+# MetaDataFormat = "toml"
+
+
+[t1]
+	stat = "sd"
+	tools = ["pinMain","pinAll","callgrind"]
+	inputs = ["C"]
+	nodes = ["1","4","16"]
+	order = "int"
+[t2]
+	stat = "rt"
+	tools = ["pinMain","pinAll","callgrind"]
+	inputs = ["B"]
+	nodes = ["1","4","16"]
+	order = "itn"
+[t3]
+	stat = "bw"
+	tools = ["pinMain","pinAll","callgrind"]
+	inputs = ["B"]
+	nodes = ["1","4","16"]
+	order = "int"
+
+
+[t4]
+	stat = "sd"
+	tools = ["pinMain","pinAll","callgrind"]
+	inputs = ["B"]
+	nodes = ["1","4","16"]
+	order = "int"		
+
+[t5]
+	stat = "sd"
+	tools = ["pinMain","pinAll"]
+	inputs = ["B","C"]
+	nodes = ["1","4","16","64"]
+	order = "tni"		
+	
+	
+	
+[dm1]
+	stat = "sd"
+	inputs = ["C"]
+	nodes = ["1"]
+	which = "Main"
+[dm2]
+	stat = "sd"
+	inputs = ["C"]
+	nodes = ["4"]
+	which = "Main"
+[dm3]
+	stat = "sd"
+	inputs = ["C"]
+	nodes = ["16"]
+	which = "Main"
+[dm4]
+	stat = "sd"
+	inputs = ["C"]
+	nodes = ["64"]
+	which = "Main"
+
+[dm5]
+	stat = "sd"
+	inputs = ["B"]
+	nodes = ["1"]
+	which = "Main"
+[dm6]
+	stat = "sd"
+	inputs = ["B"]
+	nodes = ["4"]
+	which = "Main"
+[dm7]
+	stat = "sd"
+	inputs = ["B"]
+	nodes = ["16"]
+	which = "Main"
+[dm8]
+	stat = "sd"
+	inputs = ["B"]
+	nodes = ["64"]
+	which = "Main"
+
+
+[da1]
+	stat = "sd"
+	inputs = ["C"]
+	nodes = ["1"]
+	which = "All"
+[da2]
+	stat = "sd"
+	inputs = ["C"]
+	nodes = ["4"]
+	which = "All"
+[da3]
+	stat = "sd"
+	inputs = ["C"]
+	nodes = ["16"]
+	which = "All"
+[da4]
+	stat = "sd"
+	inputs = ["C"]
+	nodes = ["64"]
+	which = "All"
+
+[da5]
+	stat = "sd"
+	inputs = ["B"]
+	nodes = ["1"]
+	which = "All"
+[da6]
+	stat = "sd"
+	inputs = ["B"]
+	nodes = ["4"]
+	which = "All"
+[da7]
+	stat = "sd"
+	inputs = ["B"]
+	nodes = ["16"]
+	which = "All"
+[da8]
+	stat = "sd"
+	inputs = ["B"]
+	nodes = ["64"]
+	which = "All"

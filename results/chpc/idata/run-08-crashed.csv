@@ -1,0 +1,12 @@
+Output Crashes
+chpc.callgrind.o1.mpicc.nas.cg.A.1.1
+chpc.callgrind.o1.mpicc.nas.ft.B.1.1
+chpc.callgrind.o1.mpicc.nas.is.A.1.1
+chpc.callgrind.o1.mpicc.nas.is.B.1.1
+chpc.wpinAll.o1.mpicc.nas.bt.A.1.1
+chpc.wpinAll.o1.mpicc.nas.bt.B.1.1
+chpc.wpinAll.o1.mpicc.nas.cg.B.1.1
+chpc.wpinAll.o1.mpicc.nas.ep.A.1.1
+App Out Crashes
+chpc.wpinAll.o1.mpicc.nas.cg.B.1.1
+chpc.wpinAll.o1.mpicc.nas.ep.A.1.1

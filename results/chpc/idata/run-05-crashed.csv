@@ -1,0 +1,24 @@
+Output Crashes
+chpc.orig.o1.mpicc.nas.cg.B.1.1
+chpc.orig.o1.mpicc.nas.is.A.4.1
+chpc.orig.o1.mpicc.nas.is.B.1.1
+chpc.orig.o1.mpicc.nas.is.B.4.1
+chpc.pinAll.o1.mpicc.nas.cg.A.1.1
+chpc.pinAll.o1.mpicc.nas.cg.A.4.1
+chpc.pinAll.o1.mpicc.nas.ep.A.1.1
+chpc.pinAll.o1.mpicc.nas.is.A.1.1
+chpc.pinAll.o1.mpicc.nas.sp.A.4.1
+chpc.pinMain.o1.mpicc.nas.bt.A.4.1
+chpc.pinMain.o1.mpicc.nas.bt.B.4.1
+chpc.pinMain.o1.mpicc.nas.bt.C.4.1
+chpc.pinMain.o1.mpicc.nas.ep.A.1.1
+chpc.pinMain.o1.mpicc.nas.mg.A.1.1
+chpc.pinMain.o1.mpicc.nas.sp.B.4.1
+chpc.pinMain.o1.mpicc.nas.sp.C.4.1
+App Out Crashes
+chpc.orig.o1.mpicc.nas.is.B.4.1
+chpc.pinAll.o1.mpicc.nas.cg.A.4.1
+chpc.pinAll.o1.mpicc.nas.sp.A.4.1
+chpc.pinMain.o1.mpicc.nas.bt.A.4.1
+chpc.pinMain.o1.mpicc.nas.bt.C.4.1
+chpc.pinMain.o1.mpicc.nas.sp.C.4.1
