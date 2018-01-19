@@ -1,4 +1,4 @@
-# pinTool
+# ParLOT
 
 First, you need to instrument the binary of target application with DBGpin. DBGpin capture all function calls for each process/threads during the execution, compress them into byte codes and generate traces for every process/thread separately. Then you can use different versions of traceReader or ConceptLattice to decompress the traces and analyze it for different purposes.
 
