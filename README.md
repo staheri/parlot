@@ -36,7 +36,7 @@ PIN instrumentaion tool from INTEL is already downloaded and built within "pin" 
 
 Change your current directory to the repo you just cloned and run this:
 
-`export PIN_ROOT=<path_to_here>/pin/`
+`export PIN_ROOT=<path_to_here>/pin/pin3.5/`
 
 `export PATH=$PIN_ROOT:$PATH`
 
@@ -44,6 +44,8 @@ Right now there is two versions of PIN instrumentator, One is instrumenting just
 and the other one is instrumAU for our purpose:enting all images including system library calls (DBGpin17allimages). 
 
 `cd $PIN_ROOT/source/tools/DBG17main`
+
+`make clean`
 
 `make`
 
@@ -93,46 +95,8 @@ The format of the name of these files are as follows: `Hbdg.<version>.<server_na
 ```
 
 
-TraceReader (next section) will convert these files into human readable ASCII files.
+TraceReader ("Debugging" project) will convert these files into human readable ASCII files.
 
-### Trace Reader
-```
-cd traceReader
-
-make
-```
-`./exec -h` for Usage options
-
-Current version of TraceReader has two major mode:
-
-1. Creates concept lattice out of all trace files
-
-    * Usage for this mode:
-
-    * `./exec -m 1 -p <path_to_traces_folder> -o <output_file_name> -d [mode_options]`
-
-    * Mode options:
-
-        1. Create concept lattice from function calls
-
-        2. Create concept lattice from function edges
-
-2. Creates a single text file from a trace file and info file
-
-    * Usage for this mode:
-
-    * `./exec -m 2 -i <info_file> -t <trace_file> -o <output_file_name(without extension)> -d [output_mode_options]`
-
-    * Output mode options:
-
-        1. Function Calls and their frequencies
-
-        2. Function Call edges (caller-callee) and their frequencies
-
-        3. Approximate call stack
-
-        4. Full trace of function calls
-  
 ## RELATED TOOLS
 
 ### TAU
